@@ -1,0 +1,81 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Watch Live Match</title>
+
+<style>
+body{
+  margin:0;
+  height:100vh;
+  background: radial-gradient(circle at top,#0f2027,#000);
+  font-family:Poppins, sans-serif;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  color:white;
+}
+
+/* Card */
+.card{
+  background: linear-gradient(145deg,#121212,#1a1a1a);
+  padding:35px;
+  border-radius:20px;
+  box-shadow:0 0 35px rgba(0,255,200,.15);
+  text-align:center;
+  width:330px;
+  animation:fadeIn .7s ease;
+}
+
+.title{
+  font-size:24px;
+  margin-bottom:12px;
+  font-weight:600;
+}
+
+.desc{
+  opacity:.8;
+  margin-bottom:22px;
+  font-size:15px;
+}
+
+.btn{
+  display:inline-block;
+  padding:13px 28px;
+  background:linear-gradient(45deg,#00ffc6,#0099ff);
+  border-radius:12px;
+  color:#000;
+  font-weight:700;
+  text-decoration:none;
+  transition:.3s;
+}
+
+.btn:hover{
+  transform:scale(1.08);
+  box-shadow:0 0 20px rgba(0,255,200,.6);
+}
+
+/* Animation */
+@keyframes fadeIn{
+  from{opacity:0; transform:translateY(25px)}
+  to{opacity:1; transform:translateY(0)}
+}
+</style>
+</head>
+
+<body>
+
+<div class="card">
+  <div class="title">🏏 Watch T20 World Cup</div>
+  <div class="desc">
+    Live match link uploaded on our Telegram channel.
+  </div>
+
+  <a class="btn" href="https://t.me/kkxstream" target="_blank">
+    Watch Now
+  </a>
+</div>
+</body>
+</html>
