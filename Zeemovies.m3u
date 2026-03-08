@@ -390,3 +390,215 @@ https://mediacloudfront.zee5.com/drm1/titanfile/dash/MOVIES/MULTI_AUDIO/4K/DDPLU
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=c9a9d7b4688f44a59d3003a2dda2a68a:e1f87d415d80fc8d11621813d59eba5b
 #EXTINF:-1 tvg-logo="" type="movie" group-title="zee5", Vivarium
+https://mediacf-reg1.zee5.com/drm1/elemental/dash/MOVIES/MULTI_AUDIO/SUPERFINE_FILMS/VIVARIUM/VIVARIUM_HD_30052023_en_63ec2f5719722110a00579b36e5f4381/manifest.mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=cca0c0fc5bd13454995cc7fd7e14bed6:c3c1ca4f5a2e159a5cd7d39cdba955e9
+#EXTINF:-1 tvg-logo="" type="movie" group-title="zee5", Maragadha Naanayam
+https://zee5vod.akamaized.net/drm1/titanfile/dash/MOVIES/4K/SUPER_PREMIUM/MARAGADHA_NAANAYAM/MARAGADHA_NAANAYAM_4K_22102024_ta_44ca80694117fcc6e99143780488b951/manifest.mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=e3f44dfd928b4f39b7b2e2f59c28ea23:4818865b4731feb2a4a64a3fac96fd8e
+#EXTINF:-1 tvg-logo="" type="movie" group-title="zee5", Vanamagan
+https://mediacf-reg1.zee5.com/drm1/1080p/movies/MOVIE_PROJECT/TAMIL/07022019/VANAMAGAN_MOVIE_ta_4fbba573.mp4/manifest.mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=eb914881d23746c6b5d0f664235f2d48:132a946332c5c6c1f79ee0a7fb764d9b
+#EXTINF:-1 tvg-logo="" type="movie" group-title="zee5", Rummy
+https://mediacf-reg1.zee5.com/drm/True-HD-1080p/TAMIL_MOVIES/Rummy.mp4/manifest.mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=eb914881d23746c6b5d0f664235f2d48:132a946332c5c6c1f79ee0a7fb764d9b
+#EXTINF:-1 tvg-logo="" type="movie" group-title="zee5", Goli Soda 2014
+https://mediacloudfront.zee5.com/drm/PRIORITY1080/TAMIL_MOVIES/Goli_Soda_Tamil_Movie_HD.mp4/manifest.mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=eb914881d23746c6b5d0f664235f2d48:132a946332c5c6c1f79ee0a7fb764d9b
+#EXTINF:-1 tvg-logo="" type="movie" group-title="zee5", Mohini 2018
+https://mediacloudfront.zee5.com/drm1/PRIORITY1080/TAMIL_MOVIES/MOHINI_TAMIL_MOVIE_ta.mp4/manifest.mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=eb914881d23746c6b5d0f664235f2d48:132a946332c5c6c1f79ee0a7fb764d9b
+#EXTINF:-1 tvg-logo="" type="movie" group-title="zee5", Aadum Koothu
+https://mediacloudfront.zee5.com/drm/PRIORITY1080/TAMIL_MOVIES/Adum_Koothu_Tamil_Movie.mp4/manifest.mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=eb914881d23746c6b5d0f664235f2d48:132a946332c5c6c1f79ee0a7fb764d9b
+#EXTINF:-1 tvg-logo="" type="movie" group-title="zee5", Lakshyam
+https://zee5vod.akamaized.net/drm/PRIORITY1080/TAMIL_MOVIES/Lakshyam_2012_Tamil_Movie.mp4/manifest.mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=eb914881d23746c6b5d0f664235f2d48:132a946332c5c6c1f79ee0a7fb764d9b
+#EXTINF:-1 tvg-logo="" type="movie" group-title="zee5", Pandhyam
+https://mediacloudfront.zee5.com/drm1/1080p/movies/MOVIE_PROJECT/TAMIL/21112018/PANDHYAM_MOVIE_ta.mp4/manifest.mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=eb914881d23746c6b5d0f664235f2d48:132a946332c5c6c1f79ee0a7fb764d9b
+#EXTINF:-1 tvg-logo="" type="movie" group-title="zee5", Konchem Ishtam Konchem Kashtam
+https://mediacloudfront.zee5.com/drm1/1080p/movies/MOVIE_PROJECT/TAMIL/18012019/KONCHAM_ISHTAM_KONCHAM_KASHTAM_KONJAISHTAMKONJAMKASTAM_MOVIE_ta.mp4/manifest.mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=eb914881d23746c6b5d0f664235f2d48:132a946332c5c6c1f79ee0a7fb764d9b
+#EXTINF:-1 tvg-logo="" type="movie" group-title="zee5", Diya
+https://mediacloudfront.zee5.com/drm/PRIORITY1080/TAMIL_MOVIES/DIYA_Tamil_Movie.mp4/manifest.mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=eb914881d23746c6b5d0f664235f2d48:132a946332c5c6c1f79ee0a7fb764d9b
+#EXTINF:-1 tvg-logo="" type="movie" group-title="zee5", Azhaipithazh
+https://mediacf-reg1.zee5.com/drm1/1080p/movies/MOVIE_PROJECT/TAMIL/21112018/AZHAIPITHAZH_MOVIE_ta.mp4/manifest.mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=eb914881d23746c6b5d0f664235f2d48:132a946332c5c6c1f79ee0a7fb764d9b
+#EXTINF:-1 tvg-logo="" type="movie" group-title="zee5", Rajini Murugan
+https://mediacloudfront.zee5.com/drm1/PRIORITY1080/TAMIL_MOVIES/RAJINI_MURUGAN_FULL_MOVIE.mp4/manifest.mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=eb914881d23746c6b5d0f664235f2d48:132a946332c5c6c1f79ee0a7fb764d9b
+#EXTINF:-1 tvg-logo="" type="movie" group-title="zee5", Rekka
+https://mediacloudfront.zee5.com/drm/True-HD-1080p/TAMIL_MOVIES/Rekka.mp4/manifest.mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=eb914881d23746c6b5d0f664235f2d48:132a946332c5c6c1f79ee0a7fb764d9b
+#EXTINF:-1 tvg-logo="" type="movie" group-title="zee5", Kaapalan
+https://mediacloudfront.zee5.com/drm1/1080p/movies/MOVIE_PROJECT/TAMIL/21112018/KAAPALAN_MOVIE_ta.mp4/manifest.mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=eb914881d23746c6b5d0f664235f2d48:132a946332c5c6c1f79ee0a7fb764d9b
+#EXTINF:-1 tvg-logo="" type="movie" group-title="zee5", Law And Order
+https://mediacf-reg1.zee5.com/drm1/1080p/movies/MOVIE_PROJECT/TAMIL/14112018/LAW_and_ORDER_MOVIE_ta.mp4/manifest.mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=eb914881d23746c6b5d0f664235f2d48:132a946332c5c6c1f79ee0a7fb764d9b
+#EXTINF:-1 tvg-logo="" type="movie" group-title="zee5", My Dear Purushan Mogudu
+https://mediacloudfront.zee5.com/drm1/1080p/movies/MOVIE_PROJECT/TAMIL/21112018/MY_DEAR_PURUSHAN_ta.mp4/manifest.mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=eb914881d23746c6b5d0f664235f2d48:132a946332c5c6c1f79ee0a7fb764d9b
+#EXTINF:-1 tvg-logo="" type="movie" group-title="zee5", Vasool
+https://mediacloudfront.zee5.com/drm1/1080p/movies/MOVIE_PROJECT/TAMIL/26112018/VASOOL_MOVIE_TA.mp4/manifest.mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=eb914881d23746c6b5d0f664235f2d48:132a946332c5c6c1f79ee0a7fb764d9b
+#EXTINF:-1 tvg-logo="" type="movie" group-title="zee5", Silanerangalil
+https://mediacf-reg1.zee5.com/drm1/1080p/movies/MOVIE_PROJECT/TAMIL/26112018/SILANERANGALIL_MOVIE_TA.mp4/manifest.mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=eb914881d23746c6b5d0f664235f2d48:132a946332c5c6c1f79ee0a7fb764d9b
+#EXTINF:-1 tvg-logo="" type="movie" group-title="zee5", Thangamagan
+https://zee5vod.akamaized.net/drm1/1080p/movies/MOVIE_PROJECT/TAMIL/18012019/THANGAMAGAN_MOVIE_ta.mp4/manifest.mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=eb914881d23746c6b5d0f664235f2d48:132a946332c5c6c1f79ee0a7fb764d9b
+#EXTINF:-1 tvg-logo="" type="movie" group-title="zee5", Peechaankai
+https://mediacf-reg1.zee5.com/drm/PRIORITY1080/TAMIL_MOVIES/PEECHANKAI_HD_TAMIL_MOVIE.mp4/manifest.mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=eb914881d23746c6b5d0f664235f2d48:132a946332c5c6c1f79ee0a7fb764d9b
+#EXTINF:-1 tvg-logo="" type="movie" group-title="zee5", Pathu Pathu
+https://mediacloudfront.zee5.com/drm1/1080p/movies/MOVIE_PROJECT/TAMIL/21112018/PATHU_PATHU_MOVIE_ta.mp4/manifest.mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=eb914881d23746c6b5d0f664235f2d48:132a946332c5c6c1f79ee0a7fb764d9b
+#EXTINF:-1 tvg-logo="" type="movie" group-title="zee5", Margazhi 16
+https://mediacf-reg1.zee5.com/drm1/1080p/movies/MOVIE_PROJECT/TAMIL/14112018/MARGAZHI_MOVIE_ta.mp4/manifest.mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=eb914881d23746c6b5d0f664235f2d48:132a946332c5c6c1f79ee0a7fb764d9b
+#EXTINF:-1 tvg-logo="" type="movie" group-title="zee5", Idhu Kadhirvelan Kaadhal
+https://mediacf-reg1.zee5.com/drm/PRIORITY1080/TAMIL_MOVIES/Idhu_Kathirvelan_Kadhal_Tamil_Movie_HD.mp4/manifest.mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=eb914881d23746c6b5d0f664235f2d48:132a946332c5c6c1f79ee0a7fb764d9b
+#EXTINF:-1 tvg-logo="" type="movie" group-title="zee5", Vadacurry
+https://mediacloudfront.zee5.com/drm/True-HD-1080p/TAMIL_MOVIES/Vadacurry.mp4/manifest.mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=eb914881d23746c6b5d0f664235f2d48:132a946332c5c6c1f79ee0a7fb764d9b
+#EXTINF:-1 tvg-logo="" type="movie" group-title="zee5", Ippadikku Kadhaludan Seenu
+https://mediacf-reg1.zee5.com/drm1/1080p/movies/MOVIE_PROJECT/TAMIL/21112018/IPPADIKU_KADHALUDAN_SEENU_MOVIE_ta.mp4/manifest.mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=eb914881d23746c6b5d0f664235f2d48:132a946332c5c6c1f79ee0a7fb764d9b
+#EXTINF:-1 tvg-logo="" type="movie" group-title="zee5", Iru Mugan
+https://zee5vod.akamaized.net/drm/True-HD-1080p/TAMIL_MOVIES/Irumugan.mp4/manifest.mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=eb914881d23746c6b5d0f664235f2d48:132a946332c5c6c1f79ee0a7fb764d9b
+#EXTINF:-1 tvg-logo="" type="movie" group-title="zee5", Yaaruku Yaaro
+https://zee5vod.akamaized.net/drm1/1080p/movies/MOVIE_PROJECT/TAMIL/26112018/YAARUKU_YAARO_MOVIE_TA.mp4/manifest.mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=eb914881d23746c6b5d0f664235f2d48:132a946332c5c6c1f79ee0a7fb764d9b
+#EXTINF:-1 tvg-logo="" type="movie" group-title="zee5", Nijam
+https://mediacloudfront.zee5.com/drm1/1080p/movies/MOVIE_PROJECT/TAMIL/21112018/NIJAM_MOVIE_ta.mp4/manifest.mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=eb914881d23746c6b5d0f664235f2d48:132a946332c5c6c1f79ee0a7fb764d9b
+#EXTINF:-1 tvg-logo="" type="movie" group-title="zee5", Thiru Thiruda
+https://mediacloudfront.zee5.com/drm1/1080p/movies/MOVIE_PROJECT/TAMIL/26112018/THIRU_THIRUDA_MOVIE_TA.mp4/manifest.mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=eb914881d23746c6b5d0f664235f2d48:132a946332c5c6c1f79ee0a7fb764d9b
+#EXTINF:-1 tvg-logo="" type="movie" group-title="zee5", Uttama Villain
+https://mediacloudfront.zee5.com/drm/PRIORITY1080/TAMIL_MOVIES/UTTHAMA_VILLAN_Tamil_Movie_HD.mp4/manifest.mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=eb914881d23746c6b5d0f664235f2d48:132a946332c5c6c1f79ee0a7fb764d9b
+#EXTINF:-1 tvg-logo="" type="movie" group-title="zee5", Vanavarayan Vallavarayan
+https://mediacf-reg1.zee5.com/drm/1080p/movies/TAMIL_MOVIES/VANAVARAYAN_VALLAVARAYAN.mp4/manifest.mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=eb914881d23746c6b5d0f664235f2d48:132a946332c5c6c1f79ee0a7fb764d9b
+#EXTINF:-1 tvg-logo="" type="movie" group-title="zee5", Ishtam
+https://zee5vod.akamaized.net/drm/PRIORITY1080/TAMIL_MOVIES/Ishatam_Tamil_Movie.mp4/manifest.mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=eb914881d23746c6b5d0f664235f2d48:132a946332c5c6c1f79ee0a7fb764d9b
+#EXTINF:-1 tvg-logo="" type="movie" group-title="zee5", Iru Nathigal
+https://mediacloudfront.zee5.com/drm1/1080p/movies/MOVIE_PROJECT/TAMIL/14112018/IRU_NADIGAL_MOVIE_ta.mp4/manifest.mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=eb914881d23746c6b5d0f664235f2d48:132a946332c5c6c1f79ee0a7fb764d9b
+#EXTINF:-1 tvg-logo="" type="movie" group-title="zee5", Kazhugu
+https://zee5vod.akamaized.net/drm/PRIORITY1080/TAMIL_MOVIES/Kazhugu_Tamil_Movie.mp4/manifest.mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=eb914881d23746c6b5d0f664235f2d48:132a946332c5c6c1f79ee0a7fb764d9b
+#EXTINF:-1 tvg-logo="" type="movie" group-title="zee5", Ennai Theriyuma
+https://mediacloudfront.zee5.com/drm1/1080p/movies/MOVIE_PROJECT/TAMIL/21112018/ENNAI_THERIYUMA_MOVIE_ta.mp4/manifest.mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=eb914881d23746c6b5d0f664235f2d48:132a946332c5c6c1f79ee0a7fb764d9b
+#EXTINF:-1 tvg-logo="" type="movie" group-title="zee5", Theeyavan
+https://mediacloudfront.zee5.com/drm1/1080p/movies/MOVIE_PROJECT/TAMIL/26112018/THEEYAVAN_MOVIE_TA.mp4/manifest.mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=eb914881d23746c6b5d0f664235f2d48:132a946332c5c6c1f79ee0a7fb764d9b
+#EXTINF:-1 tvg-logo="" type="movie" group-title="zee5", Enakkul Oru Kadhal
+https://mediacloudfront.zee5.com/drm1/1080p/movies/MOVIE_PROJECT/TAMIL/14112018/ENAKKUL_ORU_KAADHAL_MOVIE_ta.mp4/manifest.mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=eb914881d23746c6b5d0f664235f2d48:132a946332c5c6c1f79ee0a7fb764d9b
+#EXTINF:-1 tvg-logo="" type="movie" group-title="zee5", Nagarvalam
+https://mediacf-reg1.zee5.com/drm/PRIORITY1080/TAMIL_MOVIES/NAGARVALAM_HD_TAMIL_MOVIE.mp4/manifest.mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=eb914881d23746c6b5d0f664235f2d48:132a946332c5c6c1f79ee0a7fb764d9b
+#EXTINF:-1 tvg-logo="" type="movie" group-title="zee5", Aan Devathai
+https://zee5vod.akamaized.net/drm1/1080p/tvshows/ONAIR_SHOWS/Zee_Tamil/January2019/14012019/Movies/AAN_DHEVATHAI_HD.mp4/manifest.mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=eb914881d23746c6b5d0f664235f2d48:132a946332c5c6c1f79ee0a7fb764d9b
+#EXTINF:-1 tvg-logo="" type="movie" group-title="zee5", Veeraiah
+https://mediacloudfront.zee5.com/drm1/PRIORITY1080/TAMIL_MOVIES/Veeriah_Tamil.mp4/manifest.mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=eb914881d23746c6b5d0f664235f2d48:132a946332c5c6c1f79ee0a7fb764d9b
+#EXTINF:-1 tvg-logo="" type="movie" group-title="zee5", Uyire Uyire
+https://mediacloudfront.zee5.com/drm/1080p/movies/TAMIL_MOVIES/Uyire_Uyire.mp4/manifest.mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=eb914881d23746c6b5d0f664235f2d48:132a946332c5c6c1f79ee0a7fb764d9b
+#EXTINF:-1 tvg-logo="" type="movie" group-title="zee5", Kadhal Kaditham
+https://zee5vod.akamaized.net/drm1/1080p/movies/MOVIE_PROJECT/TAMIL/21112018/KAADAL_KADITHAM_MOVIE_ta.mp4/manifest.mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=eb914881d23746c6b5d0f664235f2d48:132a946332c5c6c1f79ee0a7fb764d9b
+#EXTINF:-1 tvg-logo="" type="movie" group-title="zee5", Ananda Punnakai
+https://mediacloudfront.zee5.com/drm1/1080p/movies/MOVIE_PROJECT/TAMIL/21112018/ANANDA_PUNNAKAI_ta.mp4/manifest.mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=eb914881d23746c6b5d0f664235f2d48:132a946332c5c6c1f79ee0a7fb764d9b
+#EXTINF:-1 tvg-logo="" type="movie" group-title="zee5", Pachai Nirame
+https://mediacf-reg1.zee5.com/drm1/1080p/movies/MOVIE_PROJECT/TAMIL/21112018/PACHAI_NIRAME_MOVIE_ta.mp4/manifest.mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=eb914881d23746c6b5d0f664235f2d48:132a946332c5c6c1f79ee0a7fb764d9b
+#EXTINF:-1 tvg-logo="" type="movie" group-title="zee5", Bhaagamathie
+https://mediacloudfront.zee5.com/drm/PRIORITY1080/TAMIL_MOVIES/BAGAMATHI_TAMIL_MOVIE.mp4/manifest.mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=eb914881d23746c6b5d0f664235f2d48:132a946332c5c6c1f79ee0a7fb764d9b
+#EXTINF:-1 tvg-logo="" type="movie" group-title="zee5", Panthaya Kozhi
+https://mediacf-reg1.zee5.com/drm1/1080p/movies/MOVIE_PROJECT/TAMIL/21112018/PANDIYA_KOZHI_MOVIE_ta.mp4/manifest.mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=eb914881d23746c6b5d0f664235f2d48:132a946332c5c6c1f79ee0a7fb764d9b
+#EXTINF:-1 tvg-logo="" type="movie" group-title="zee5", Manjapai
+https://mediacloudfront.zee5.com/drm/1080p/movies/TAMIL_MOVIES/MANJA_PAI.mp4/manifest.mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=eb914881d23746c6b5d0f664235f2d48:132a946332c5c6c1f79ee0a7fb764d9b
+#EXTINF:-1 tvg-logo="" type="movie" group-title="zee5", India Pakistan
+https://mediacloudfront.zee5.com/drm/PRIORITY1080/TAMIL_MOVIES/India_Pakistan_Tamil_Movie_HD.mp4/manifest.mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=eb914881d23746c6b5d0f664235f2d48:132a946332c5c6c1f79ee0a7fb764d9b
+#EXTINF:-1 tvg-logo="" type="movie" group-title="zee5", Billa Pandi
+https://zee5vod.akamaized.net/drm1/1080p/movies/MOVIE_PROJECT/MOVIES/TAMIL/BILLA_PANDI_MOVIE_ta_2f039284.mp4/manifest.mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=eb914881d23746c6b5d0f664235f2d48:132a946332c5c6c1f79ee0a7fb764d9b
+#EXTINF:-1 tvg-logo="" type="movie" group-title="zee5", Maanavan Ninaithal
+https://mediacf-reg1.zee5.com/drm1/1080p/movies/MOVIE_PROJECT/TAMIL/14112018/MAANAVAN_NINAITHAL_MOVIE_ta.mp4/manifest.mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=eb914881d23746c6b5d0f664235f2d48:132a946332c5c6c1f79ee0a7fb764d9b
+#EXTINF:-1 tvg-logo="" type="movie" group-title="zee5", Vallamai Thaaraayo
+https://mediacf-reg1.zee5.com/drm1/1080p/movies/MOVIE_PROJECT/TAMIL/26112018/VALLAMAI_THARAYAO_MOVIE_TA.mp4/manifest.mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=eb914881d23746c6b5d0f664235f2d48:132a946332c5c6c1f79ee0a7fb764d9b
+#EXTINF:-1 tvg-logo="" type="movie" group-title="zee5", Company
+https://mediacf-reg1.zee5.com/drm1/1080p/movies/MOVIE_PROJECT/CONTENT/MOVIES/COMPANY/COMPANY_TAMIL_ta_5e95d304.mp4/manifest.mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=eb914881d23746c6b5d0f664235f2d48:132a946332c5c6c1f79ee0a7fb764d9b
+#EXTINF:-1 tvg-logo="" type="movie" group-title="zee5", Brindavanam
