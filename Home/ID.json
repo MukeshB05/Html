@@ -1,0 +1,617 @@
+{
+  "iframes": [
+    {
+       
+      "id": "Hindi",
+      "name": "Star Sports  हिंदी ",
+      "type": "iframe",
+      "iframeSrc": "https://all-in-one-channel.pages.dev/MANUALLY/SS1H"
+    },
+    {
+      "id": "Hindi-2",
+      "name": "Star Sports Hindi",
+      "type": "iframe",
+      "iframeSrc": "https://all-in-one-channel.pages.dev/MANUALLY/SS2HHDD"
+    },
+    {
+      "id": "English",
+      "name": "Star Sports English",
+      "type": "iframe",
+      "iframeSrc": "https://all-in-one-channel.pages.dev/MANUALLY/SS1"
+    },
+    {
+      "id": "English-2",
+      "name": "Star Sports English",
+      "type": "iframe",
+      "iframeSrc": "https://allrounder-live.pages.dev/star/star-1"
+    },
+    {
+      "id": "Tamil",
+      "name": "Star Sports தமிழ்",
+      "type": "iframe",
+      "iframeSrc": "https://all-in-one-channel.pages.dev/MANUALLY/SS1T"
+    },
+    {
+      "id": "Telugu",
+      "name": "Star Sports తెలుగు",
+      "type": "iframe",
+      "iframeSrc": "https://all-in-one-channel-888.vercel.app/STAR2/?id=1651"
+    },
+    {
+      "id": "Kannada",
+      "name": " Star Sports ಕನ್ನಡ",
+      "type": "iframe",
+      "iframeSrc": "https://all-in-one-channel-888.vercel.app/STAR2/?id=1650"
+    },
+    {
+      "id": "Tamil-2",
+      "name": "Star Sports Telugu",
+      "type": "iframe",
+      "iframeSrc": "https://allrounder-live.pages.dev/star/tamil-1"
+    },
+    {
+      "id": "Telugu-2",
+      "name": "Star Sports Telugu",
+      "type": "iframe",
+      "iframeSrc": "https://all-in-one-channel-888.vercel.app/STAR2/?id=2852"
+    },
+    {
+      "id": "Prime",
+      "name": " Amazon Prime हिंदी",
+      "type": "iframe",
+      "iframeSrc": "https://all-in-one-channel.pages.dev/PRIME/ONE/"
+    },
+    {
+      "id": "Prime-2",
+      "name": "Amazon Prime ",
+      "type": "iframe",
+      "iframeSrc": "https://all-in-one-channel.pages.dev/PRIME/ONE/"
+    },
+    {
+      "id": "Willow-2",
+      "name": "Willow Cricbuzz",
+      "type": "iframe",
+      "iframeSrc": "https://all-in-one-channel.pages.dev/PRIME/ONE/"
+    },
+    {
+      "id": "Willow-3",
+      "name": "Willow Cricbuzz",
+      "type": "iframe",
+      "iframeSrc": "https://all-in-one-channel.pages.dev/PRIME/ONE"
+    },
+    {
+      "id": "TEST",
+      "name": "HUB Sports",
+      "type": "iframe",
+      "iframeSrc": "https://all-video-player-sayan.pages.dev/ART.html?url=https://in-mc-flive.fancode.com/mumbai/140988_english_hls_65f4a904ef47085_1ta-di_h264/240p.m3u8?hdntl=Expires=1772814367~_GO=Generated~acl=/mumbai/140988_english_hls_65f4a904ef47085_1ta-di_h264/*~Signature=AQQqLwQuuYtp1oeLbf3Zj1AlEuOSiuxH_g_IrwqoMWNgfSwq9N55qGz02gZSN8PlhStn3TD96OuJ1lAXeGAnA9LmcokG"
+    },
+    {
+      "id": "SLIV",
+      "name": "Sony Sports Hindi",
+      "type": "iframe",
+      "iframeSrc": "https://all-video-player-sayan.pages.dev/Player2/?url=https://in-mc-flive.fancode.com/mumbai/140988_english_hls_65f4a904ef47085_1ta-di_h264/240p.m3u8?hdntl=Expires=1772814367~_GO=Generated~acl=/mumbai/140988_english_hls_65f4a904ef47085_1ta-di_h264/*~Signature=AQQqLwQuuYtp1oeLbf3Zj1AlEuOSiuxH_g_IrwqoMWNgfSwq9N55qGz02gZSN8PlhStn3TD96OuJ1lAXeGAnA9LmcokG"
+    },
+    {
+      "id": "Hotstar",
+      "name": "Jio Hotstar Live",
+      "type": "iframe",
+      "iframeSrc": "https://all-in-one-channel.pages.dev/MANUALLY/SS1H"
+    },
+    {
+      "id": "Star",
+      "name": "Star Sports HD",
+      "type": "iframe",
+      "iframeSrc": "https://all-in-one-channel.pages.dev/MANUALLY/SS1H"
+    },
+    {
+      "id": "Prame",
+      "name": "Prime Hindi",
+      "type": "iframe",
+      "iframeSrc": "https://all-in-one-channel-888.vercel.app/PRIME/ONE"
+    },
+    {
+      "id": "Kannada-2",
+      "name": "Star Sports Kannada 2",
+      "type": "iframe",
+      "iframeSrc": "https://all-in-one-channel-888.vercel.app/STAR2/?id=1122"
+    },
+    {
+      "id": "Hindi-3",
+      "name": "Star Sports Hindi",
+      "type": "iframe",
+      "iframeSrc": "https://allrounder-live.pages.dev/star/star-1-hindi"
+    },
+    {
+      "id": "NEW_SLOT_9",
+      "name": "New Empty Slot 9",
+      "type": "iframe",
+      "iframeSrc": ""
+    },
+    {
+      "id": "NEW_SLOT_10",
+      "name": "New Empty Slot 10",
+      "type": "iframe",
+      "iframeSrc": ""
+    },
+    {
+      "id": "",
+      "name": "",
+      "type": "iframe",
+      "iframeSrc": ""
+    },
+    {
+      "id": "",
+      "name": "",
+      "type": "iframe",
+      "iframeSrc": ""
+    },
+    {
+      "id": "",
+      "name": "",
+      "type": "iframe",
+      "iframeSrc": ""
+    },
+    {
+      "id": "",
+      "name": "",
+      "type": "iframe",
+      "iframeSrc": ""
+    },
+    {
+      "id": "SONY1",
+      "name": "Sony LIV 1  HD",
+      "type": "iframe",
+      "iframeSrc": "https://allrounder-serverone.vercel.app/SLIV/SONY-ONE"
+    },
+    {
+      "id": "SONY2",
+      "name": "Sony LIV 2 HD",
+      "type": "iframe",
+      "iframeSrc": "https://all-in-one-channel-888.vercel.app/SLIV/SONY-TWO"
+    },
+    {
+      "id": "SONY3",
+      "name": "Sony LIV 3 HD",
+      "type": "iframe",
+      "iframeSrc": "https://allrounder-serverone.vercel.app/SLIV/SONY-THREE"
+    },
+    {
+      "id": "SONY4",
+      "name": "Sony LIV 4 HD",
+      "type": "iframe",
+      "iframeSrc": "https://allrounder-serverone.vercel.app/SLIV/SONY-FOUE"
+    },
+    {
+      "id": "SONY5",
+      "name": "Sony LIV 5 HD",
+      "type": "iframe",
+      "iframeSrc": "https://allrounder-serverone.vercel.app/SLIV/SONY-FIVE"
+    },
+    {
+      "id": "IOS",
+      "name": "Apple User",
+      "type": "iframe",
+      "iframeSrc": "https://all-video-player-sayan.pages.dev/ART.html?url=https://amg01269-amg01269c1-sportstribal-emea-5204.playouts.now.amagi.tv/playlist/amg01269-willowtvfast-willowplus-sportstribalemea/playlist.m3u8"
+    },
+    {
+      "id": "WW",
+      "name": "World Wide ",
+      "type": "iframe",
+      "iframeSrc": "https://all-video-player-sayan.pages.dev/ART.html?url=https://sayan-proxy.pages.dev/Hotstar"
+    },
+    {
+      "id": "LIVE",
+      "name": "CNP BROADCAST",
+      "type": "iframe",
+      "iframeSrc": ""
+    },
+    {
+      "id": "",
+      "name": "",
+      "type": "iframe",
+      "iframeSrc": ""
+    },
+    {
+      "id": "SS1",
+      "name": "Star Sports 1 HD",
+      "type": "iframe",
+      "iframeSrc": "https://cnpoint.pages.dev/PRIVATE/SAYAN.html/?id=1142"
+    },
+    {
+      "id": "SS2",
+      "name": "Star Sports 2",
+      "type": "iframe",
+      "iframeSrc": "https://cnpoint.pages.dev/PRIVATE/SAYAN.html/?id=1141"
+    },
+    {
+      "id": "SS1H",
+      "name": "Star Sports 1 Hindi HD",
+      "type": "iframe",
+      "iframeSrc": "https://cnpoint.pages.dev/PRIVATE/SAYAN.html/?id=148"
+    },
+    {
+      "id": "SS2H",
+      "name": "Star Sports 2 Hindi HD",
+      "type": "iframe",
+      "iframeSrc": "https://cnpoint.pages.dev/PRIVATE/SAYAN.html/?id=1984"
+    },
+    {
+      "id": "SS3",
+      "name": "Star Sports 3",
+      "type": "iframe",
+      "iframeSrc": "https://all-in-one-channel-amber.vercel.app/STAR/STAR2?id=147"
+    },
+    {
+      "id": "SS1T",
+      "name": "Star Sports 1 Tamil HD",
+      "type": "iframe",
+      "iframeSrc": "https://cnpoint.pages.dev/PRIVATE/SAYAN.html/?id=4468"
+    },
+    {
+      "id": "SS1TE",
+      "name": "Star Sports 1 Telagu",
+      "type": "iframe",
+      "iframeSrc": "https://cnpoint.pages.dev/PRIVATE/SAYAN.html/?id=4471"
+    },
+    {
+      "id": "SS1K",
+      "name": "Star Sports 1 Kannada",
+      "type": "iframe",
+      "iframeSrc": "https://cnpoint.pages.dev/PRIVATE/SAYAN.html/?id=1650"
+    },
+    {
+      "id": "SS2K",
+      "name": "Star Sports 2 Kannada",
+      "type": "iframe",
+      "iframeSrc": "https://cnpoint.pages.dev/PRIVATE/SAYAN.html/?id=4472"
+    },
+    {
+      "id": "SS2T",
+      "name": "Star Sports 2 Tamil HD",
+      "type": "iframe",
+      "iframeSrc": "https://cnpoint.pages.dev/PRIVATE/SAYAN.html/?id=4473"
+    },
+    {
+      "id": "SS2TE",
+      "name": "Star Sports 2 Telugu HD",
+      "type": "iframe",
+      "iframeSrc": "https://cnpoint.pages.dev/PRIVATE/SAYAN.html/?id=4474"
+    },
+    {
+      "id": "SSK",
+      "name": "Star Sports Khel",
+      "type": "iframe",
+      "iframeSrc": "https://cnpoint.pages.dev/PRIVATE/SAYAN.html/?id=1998"
+    },
+    {
+      "id": "SSS1",
+      "name": "Star Sports Select 1",
+      "type": "iframe",
+      "iframeSrc": "https://all-in-one-channel.vercel.app/STAR?id=300"
+    },
+    {
+      "id": "SSS2",
+      "name": "Star Sports Select 2",
+      "type": "iframe",
+      "iframeSrc": "https://cnpoint.pages.dev/PRIVATE/SAYAN.html/?id=301"
+    },
+    {
+      "id": "",
+      "name": "",
+      "type": "iframe",
+      "iframeSrc": ""
+    },
+    {
+      "id": "",
+      "name": "",
+      "type": "iframe",
+      "iframeSrc": ""
+    },
+    {
+      "id": "",
+      "name": "",
+      "type": "iframe",
+      "iframeSrc": ""
+    },
+    {
+      "id": "",
+      "name": "",
+      "type": "iframe",
+      "iframeSrc": ""
+    },
+    {
+      "id": "",
+      "name": "",
+      "type": "iframe",
+      "iframeSrc": ""
+    },
+    {
+      "id": "",
+      "name": "",
+      "type": "iframe",
+      "iframeSrc": ""
+    },
+    {
+      "id": "",
+      "name": "",
+      "type": "iframe",
+      "iframeSrc": ""
+    },
+    {
+      "id": "",
+      "name": "",
+      "type": "iframe",
+      "iframeSrc": ""
+    },
+    {
+      "id": "",
+      "name": "",
+      "type": "iframe",
+      "iframeSrc": ""
+    },
+    {
+      "id": "",
+      "name": "",
+      "type": "iframe",
+      "iframeSrc": ""
+    },
+    {
+      "id": "",
+      "name": "",
+      "type": "iframe",
+      "iframeSrc": ""
+    },
+    {
+      "id": "",
+      "name": "",
+      "type": "iframe",
+      "iframeSrc": ""
+    },
+    {
+      "id": "",
+      "name": "",
+      "type": "iframe",
+      "iframeSrc": ""
+    },
+    {
+      "id": "",
+      "name": "",
+      "type": "iframe",
+      "iframeSrc": ""
+    },
+    {
+      "id": "",
+      "name": "",
+      "type": "iframe",
+      "iframeSrc": ""
+    },
+    {
+      "id": "",
+      "name": "",
+      "type": "iframe",
+      "iframeSrc": ""
+    },
+    {
+      "id": "",
+      "name": "",
+      "type": "iframe",
+      "iframeSrc": ""
+    },
+    {
+      "id": "",
+      "name": "",
+      "type": "iframe",
+      "iframeSrc": ""
+    },
+    {
+      "id": "",
+      "name": "",
+      "type": "iframe",
+      "iframeSrc": ""
+    },
+    {
+      "id": "",
+      "name": "",
+      "type": "iframe",
+      "iframeSrc": ""
+    },
+    {
+      "id": "",
+      "name": "",
+      "type": "iframe",
+      "iframeSrc": ""
+    },
+    {
+      "id": "",
+      "name": "",
+      "type": "iframe",
+      "iframeSrc": ""
+    },
+    {
+      "id": "",
+      "name": "",
+      "type": "iframe",
+      "iframeSrc": ""
+    },
+    {
+      "id": "",
+      "name": "",
+      "type": "iframe",
+      "iframeSrc": ""
+    },
+    {
+      "id": "",
+      "name": "",
+      "type": "iframe",
+      "iframeSrc": ""
+    },
+    {
+      "id": "",
+      "name": "",
+      "type": "iframe",
+      "iframeSrc": ""
+    },
+    {
+      "id": "",
+      "name": "",
+      "type": "iframe",
+      "iframeSrc": ""
+    },
+    {
+      "id": "",
+      "name": "",
+      "type": "iframe",
+      "iframeSrc": ""
+    },
+    {
+      "id": "",
+      "name": "",
+      "type": "iframe",
+      "iframeSrc": ""
+    },
+    {
+      "id": "",
+      "name": "",
+      "type": "iframe",
+      "iframeSrc": ""
+    },
+    {
+      "id": "",
+      "name": "",
+      "type": "iframe",
+      "iframeSrc": ""
+    },
+    {
+      "id": "Cricbuzz-2",
+      "name": "Willow Cricbuzz 2",
+      "type": "iframe",
+      "iframeSrc": "https://all-in-one-channel.pages.dev/BUZZ/TWO"
+    },
+    {
+      "id": "Prime3",
+      "name": "Amazon Prime",
+      "type": "iframe",
+      "iframeSrc": "https://all-in-one-channel.pages.dev/PRIME/THREE"
+    },
+    {
+      "id": "ClifeX",
+      "name": "Criclife Woman",
+      "type": "iframe",
+      "iframeSrc": "https://all-in-one-channel.pages.dev/CLIFE/Woman"
+    },
+    {
+      "id": "Prime2",
+      "name": "Amazon Prime",
+      "type": "iframe",
+      "iframeSrc": "https://all-in-one-channel.pages.dev/PRIME/TWO"
+    },
+    {
+      "id": "Fox",
+      "name": "Fox 501",
+      "type": "iframe",
+      "iframeSrc": "https://allrounderlive.pages.dev/player?url=https://dillzy-hotstar.pages.dev/fox"
+    },
+    {
+      "id": "EURO",
+      "name": "EURO SPORTS HD",
+      "type": "iframe",
+      "iframeSrc": "Https://cxsports.vercel.app/JIOTV.html?id=875"
+    },
+    {
+      "id": "DD",
+      "name": "DD Sports",
+      "type": "iframe",
+      "iframeSrc": "Https://cxsports.vercel.app/JIOTV.html?id=204"
+    },
+    {
+      "id": "SKY",
+      "name": "SKY CRICKET",
+      "type": "iframe",
+      "iframeSrc": "https://all-in-one-channel.vercel.app/SKY"
+    },
+    {
+      "id": "TEN",
+      "name": "TEN CRICKET HD",
+      "type": "iframe",
+      "iframeSrc": "https://ten-sports-sayan.pages.dev/Indexxx.html"
+    },
+    {
+      "id": "Clife",
+      "name": "Criclife",
+      "type": "iframe",
+      "iframeSrc": "https://all-in-one-channel.pages.dev/CLIFE/ONE"
+    },
+    {
+      "id": "Hindi2",
+      "name": "Star Sports Hindi",
+      "type": "iframe",
+      "iframeSrc": "https://all-in-one-channel.pages.dev/STAR/?id=1985"
+    },
+    {
+      "id": "Cricbuzz",
+      "name": "Cricbuzz Live",
+      "type": "iframe",
+      "iframeSrc": "https://all-in-one-channel.pages.dev/BUZZ/ONE"
+    },
+    {
+      "id": "BUZZ",
+      "name": "Cricbuzz 1",
+      "type": "iframe",
+      "iframeSrc": "https://all-in-one-channel.pages.dev/BUZZ/ONE"
+    },
+    {
+      "id": "Willow",
+      "name": "Willow Sports",
+      "type": "iframe",
+      "iframeSrc": "https://all-in-one-channel.pages.dev/PRIME/ONE"
+    },
+    {
+      "id": "BBL",
+      "name": "BIGH BASH LEAGUE",
+      "type": "iframe",
+      "iframeSrc": "https://all-in-one-channel.pages.dev/BUZZ/ONE"
+    },
+    {
+      "id": "TNT1",
+      "name": "TNT Sports 1",
+      "type": "iframe",
+      "iframeSrc": "https://all-in-one-channel.pages.dev/TNT/ONE"
+    },
+    {
+      "id": "TNT2",
+      "name": "TNT Sports 2",
+      "type": "iframe",
+      "iframeSrc": "https://all-in-one-channel.pages.dev/TNT/TWO"
+    },
+    {
+      "id": "TNT3",
+      "name": "TNT Sports 3",
+      "type": "iframe",
+      "iframeSrc": "https://all-in-one-channel.pages.dev/TNT/THREE"
+    },
+    {
+      "id": "TNT4",
+      "name": "TNT Sports 4",
+      "type": "iframe",
+      "iframeSrc": "https://all-in-one-channel.pages.dev/TNT/FOUR"
+    },
+    {
+      "id": "WWE",
+      "name": "WWE Live Stream",
+      "type": "iframe",
+      "iframeSrc": "https://cnpoint.pages.dev/PRIVATE/SAYAN.html/?id=3A"
+    },
+    {
+      "id": "FC2",
+      "name": "Fancode Worldwide SD",
+      "type": "iframe",
+      "iframeSrc": "https://all-in-one-channel-888.vercel.app/FC/SERVER2"
+    },
+    {
+      "id": "FC1",
+      "name": "Fancode Worldwide 4K",
+      "type": "iframe",
+      "iframeSrc": "https://all-in-one-channel-888.vercel.app/FC/SERVER1"
+    }
+  ]
+}
