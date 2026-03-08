@@ -266,3 +266,127 @@ https://mediacf-reg1.zee5.com/drm1/titanfile/dash/MOVIES/MULTI_AUDIO_DIFF/4K/DDP
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=0aa10770084d4e68beadb1fde4cceb20:c56722baac124f9d5aebfce4b226668f
 #EXTINF:-1 tvg-logo="" type="movie" group-title="zee5", Danny
+https://mediacf-reg1.zee5.com/drm1/elemental/dash/Movies/4K/DDPLUS/DANNY/DANNY_4K_11082022_Rev1_ta_c873e0a21e24e74c3366f453cc74b7ea/manifest.mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=0d24a9dfeeec3d21966113d933c4fb87:efcfea08fa7dff886082eb1cabd579a2
+#EXTINF:-1 tvg-logo="" type="movie" group-title="zee5", Detective Dee Demon Chonchon
+https://mediacf-reg1.zee5.com/drm1/titanfile/dash/MOVIES/MULTI_AUDIO/IOF/DETECTIVE_DEE_DEMON_CHON_CHON/DETECTIVE_DE_DEMON_CHON_CHON_HD_30032024_hi_c0aaa70a7fbf11d5d35bcb10cb9df1ee/manifest.mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=0ed5242823f54e5caa4409b898c2303f:c2a0b68c6a398ee06a57fb5189db5289
+#EXTINF:-1 tvg-logo="" type="movie" group-title="zee5", Sky Sharks
+https://mediacf-reg1.zee5.com/drm1/elemental/dash/MOVIES/MULTI_AUDIO/SUPERFINE_FILMS/SKY_SHARK/SKY_SHARK_HD_19042023_en_b36b8e357dd48f6360fa81c579b077cf/manifest.mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=164277dccafa348590fc14ccfe0121cc:7cea7c372e49541c14adb89e92c7fcd0
+#EXTINF:-1 tvg-logo="" type="movie" group-title="zee5", Bimbisara
+https://zee5vod.akamaized.net/drm1/titanfile/dash/MOVIES/MULTI_AUDIO_DIFF/4K/ATMOS/BIMBISARA/BIMBISARA_4K_17042024_te_62c8fb4d968cb25e47ab4a43f0651c75/manifest.mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=194b019d6447390ca2097ad3bcc4f704:82af98cc8d77213257bfb67779d487f9
+#EXTINF:-1 tvg-logo="" type="movie" group-title="zee5", Vikram Vedha
+https://mediacf-reg1.zee5.com/drm1/titanfile/dash/MOVIES/4K/SUPER_PREMIUM/DDPLUS/VIKRAM_VEDHA/VIKRAM_VEDHA_4K_14102024_ta_7b2ec74532bdd966f4eeb1eed3838f01/manifest.mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=19f5f317ac924654917c03594305eb66:9ef8721a5e9b3ff44f788ebf50257a44
+#EXTINF:-1 tvg-logo="" type="movie" group-title="zee5", Changan Fog Monster
+https://mediacloudfront.zee5.com/drm1/elemental/dash/MOVIES/MULTI_AUDIO/IOF/CHANG_AN_FOG_MASTER/CHANG_AN_FOG_MASTER_HD_08052023_hi_47f4b389129fae9f4a90353abbadd33c/manifest.mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=1ec5e50479b830559c20d1a795db1cd8:d4b7bd51e3dfea24070d899e9e1a4efb
+#EXTINF:-1 tvg-logo="" type="movie" group-title="zee5", Revolt
+https://mediacloudfront.zee5.com/drm1/titanfile/dash/MOVIES/MULTI_AUDIO/SUPER_FINE_FILMS/REVOLT/REVOLT_HD_09012024_en_eaf0d687b3dba7d23b0d065405f53f6e/manifest.mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=2bacc7bcda2945f686bfac7a936edb2d:633a800da01159b6c98e2af2f3a7906e
+#EXTINF:-1 tvg-logo="" type="movie" group-title="zee5", Shennong Savage
+https://zee5vod.akamaized.net/drm1/elemental/dash/MOVIES/MULTI_AUDIO/IOF/SHENNONG_SAVAGE/SHENNONG_SAVAGE_HD_13062023_hi_e8ec2c645eeb375f80cba5fd9050e63d/manifest.mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=2ad36f71c49533648fc6fbd5cf0b99eb:524a5bf86e20908f30f9a2553bd8c386
+#EXTINF:-1 tvg-logo="" type="movie" group-title="zee5", Vedaa
+https://mediacf-reg1.zee5.com/drm1/titanfile/dash/MOVIES/V2PRIME/MULTI_AUDIO/4K/SUPER_PREMIUM/ATMOS/VEDAA/VEDAA_4K_09102024_hi_639838555205e5e88060b646c539865b/manifest.mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=37ae0f7828aa3e92a8607bcbec816daa:c92d8d2973bdd8c13547e3989af7c4c8
+#EXTINF:-1 tvg-logo="" type="movie" group-title="zee5", Dial 100
+https://mediacloudfront.zee5.com/drm1/titanfile/dash/MOVIES/MULTI_AUDIO_DIFF/4K/DDPLUS/DIAL_100/DIAL_100_4K_09032024_hi_a1aeca8f1c2e64268de43a53e43c97c3/manifest.mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=47ccfb09e45e308ea7149c6c8cc17d6b:a55b74e32566b197b58b76b62f2605b0
+#EXTINF:-1 tvg-logo="" type="movie" group-title="zee5", 420 Ipc
+https://mediacf-reg1.zee5.com/drm1/titanfile/dash/MOVIES/MULTI_AUDIO_DIFF/4K/DDPLUS/420_IPC/420_IPC_4K_07032024_hi_1687ffb3a2790216bbab9996bf33d01e/manifest.mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=46e4029ac5c6475ba46e28d892ad73a2:c7d83418931b16354e9c185c64ff0aa8
+#EXTINF:-1 tvg-logo="" type="movie" group-title="zee5", Riders Of Justice
+https://zee5vod.akamaized.net/drm1/elemental/dash/MOVIES/MULTI_AUDIO/SUPERFINE_FILMS/RIDERS_OF_JUSTICE/RIDERS_OF_JUSTICE_HD_06042023_hi_64957414761170a7830c1f4163e76f55/manifest.mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=4fa8d0a74c29482985964ded1923554e:b57470ce2166d25a03c786412838cabc
+#EXTINF:-1 tvg-logo="" type="movie" group-title="zee5", Detective Dee Murder In Changan
+https://zee5vod.akamaized.net/drm1/elemental/dash/MOVIES/MULTI_AUDIO/IOF/DETECTIVE_DEE_MURDER_IN_CHANG/DETECTIVE_SEE_MURDER_IN_CHANG_HD_16052023_hi_f4d671a9e46a47e8f8a442c4b8dad2ab/manifest.mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=4fdd067bfa1f364d9a22c1573c37a811:990aec2823545ccf4c8c86511885f9aa
+#EXTINF:-1 tvg-logo="" type="movie" group-title="zee5", 200 Halla Ho
+https://mediacloudfront.zee5.com/drm1/titanfile/dash/MOVIES/MULTI_AUDIO_DIFF/4K/DDPLUS/200_HALLA_HO/200_HALLA_HO_4K_07032024_hi_ea7f326a3dc7c4e2fd21e88875c8d6f4/manifest.mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=4c641b413432342287427c9c3065606c:f8c0ca2c8cdb8ef82de50bcd4d515819
+#EXTINF:-1 tvg-logo="" type="movie" group-title="zee5", Chup Revenge Of The Artist
+https://mediacf-reg1.zee5.com/drm1/titanfile/dash/MOVIES/MULTI_AUDIO_DIFF/4K/ATMOS/CHUP/CHUP_4K_30092024_hi_4891e7337ddc861fd6224314a8b8cdb7/manifest.mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=5b3364939763425bacdc4455a61b8f23:324999e32c223e2276229b4d9c01ec60
+#EXTINF:-1 tvg-logo="" type="movie" group-title="zee5", Viduthalai Part 1 Theatrical Cut
+https://mediacf-reg1.zee5.com/drm1/elemental/dash/MOVIES/MULTI_AUDIO_DIFF/4K/ATMOS/VIDUTHALAI_PART1_THEATRICAL/VIDUTHALAI_PART1_THEATRICAL_VERSION_4K_21072023_ta_e3c41ee8974293e46b7b3d687cda5354/manifest.mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=674e345fc6e94ad5ba8390aaed37399c:01cda2d5261ed36880f662d22a734d29
+#EXTINF:-1 tvg-logo="" type="movie" group-title="zee5", Beauty And The Beast
+https://zee5vod.akamaized.net/drm1/elemental/dash/MOVIES/MULTI_AUDIO/SUPERFINE_FILMS/BEAUTY_AND_THE_BEAST/BEAUTY_AND_THE_BEAST_HD_02012023_en_92dee48aefa163d3e195266d9e4a7fbb/manifest.mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=672c8c6b383a319694352531a61c840d:016bcaa5722266cc30deea2c6fb3006e
+#EXTINF:-1 tvg-logo="" type="movie" group-title="zee5", Kurangu Bommai
+https://mediacf-reg1.zee5.com/drm1/titanfile/dash/MOVIES/4K/SUPER_PREMIUM/DDPLUS/KURANGU_BOMMAI/KURANGU_BOMMAI_4K_30092024_ta_11239237aa782e71e82b0c24d4b5e990/manifest.mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=7970b3182b703c779798a17398bc78e8:01b490048901b05206f360d586abb432
+#EXTINF:-1 tvg-logo="" type="movie" group-title="zee5", Special Female Force
+https://mediacf-reg1.zee5.com/drm1/titanfile/dash/MOVIES/MULTI_AUDIO/STAR_FILMS/SPECIAL_FEMALE_FORCE/SPECIAL_FEMALE_FORCE_HD_17022024_hi_0a67c1386fbe0786bc6f12ab3fc2b032/manifest.mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=85c25b0835e430b78a3ae7866600b097:f30b9463183e17a16186af6f78f812bb
+#EXTINF:-1 tvg-logo="" type="movie" group-title="zee5", Demonte Colony 2
+https://mediacloudfront.zee5.com/drm1/titanfile/dash/MOVIES/V2PRIME/4K/ATMOS/DEMONTE_COLONY_2/DEMONTE_COLONY_2_4K_25092024_ta_6ba23c05e5fbc3083ce0eb5e274c108f/manifest.mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=8868762a72a53093b075b04aa8669cc7:aa89257d96abf6cbb7218cee27612c4a
+#EXTINF:-1 tvg-logo="" type="movie" group-title="zee5", The Free Fall
+https://mediacloudfront.zee5.com/drm1/titanfile/dash/MOVIES/MULTI_AUDIO/THE_FREE_FALL/THE_FREE_FALL_HD_GCP_04012024_en_5d791fac925446f0590a11a257141228/manifest.mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=8d1709a95a3a34a19d83fecd2920e7e4:50a0d7df158a5686af4b8049bc44bae0
+#EXTINF:-1 tvg-logo="" type="movie" group-title="zee5", Quick
+https://mediacloudfront.zee5.com/drm1/titanfile/dash/MOVIES/MULTI_AUDIO/BOOK_MY_SHOW/QUICK/QUICK_HD_19032024_hi_86b4ba4d4ecb55c7b32eef0367beaad6/manifest.mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=96b1edc1bb2549668d371c5ed297a0f8:c93ab3f28b0e0d3a9527697b36113c82
+#EXTINF:-1 tvg-logo="" type="movie" group-title="zee5", The Enforcer
+https://mediacf-reg1.zee5.com/drm1/elemental/dash/MOVIES/MULTI_AUDIO/SUPER_FINE_FILMS/THE_ENFORCER/THE_ENFORCER_HD_09122023_en_961200b86c153894496b59788f0b22c4/manifest.mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=9e0fd2d564894aa6ae935085fb47a580:9eebe13af3e1d82d8e61be3262aa0813
+#EXTINF:-1 tvg-logo="" type="movie" group-title="zee5", Painted Skin
+https://mediacf-reg1.zee5.com/drm1/elemental/dash/MOVIES/MULTI_AUDIO/IOF/PAINTED_SKIN/PAINTED_SKIN_HD_31052023_hi_1f88cedcc1a2e4b0b48de1f91aa1123c/manifest.mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=a3b2d872bd0142eea22e4d5a01d2a91b:22ba19873fbc35a4b7b6b665d3c27f49
+#EXTINF:-1 tvg-logo="" type="movie" group-title="zee5", The Labyrinth
+https://mediacloudfront.zee5.com/drm1/elemental/dash/MOVIES/MULTI_AUDIO/IOF/THE_LABYRINTH/THE_LABYRINTH_HD_13062023_hi_49ec3ee8f0cabc5fefd86aadbf93106c/manifest.mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=b75a27562eb93c3683e604a76e5b1219:9fc26d8fa32ec3f40e2c665cfffd6b04
+#EXTINF:-1 tvg-logo="" type="movie" group-title="zee5", Borrego
+https://mediacf-reg1.zee5.com/drm1/titanfile/dash/MOVIES/MULTI_AUDIO/SUPER_FINE_FILMS/BORREGO/BORREGO_HD_09012024_en_238fc1d808164323d610db8d36a08e79/manifest.mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=bb5d3d41d4144b598fe901b53d2dd735:952f8efa5426bd7aa2722428ccfb2d80
+#EXTINF:-1 tvg-logo="" type="movie" group-title="zee5", Kathar Basha Endra Muthuramalingam
+https://mediacf-reg1.zee5.com/drm1/elemental/dash/MOVIES/MULTI_AUDIO/4K/DDPLUS/KATHAR_BASHA_ENDRA_MUTHURAMALINGAM/KATHAR_BASHA_ENDRA_MUTHURAMALINGAM_4K_21072023_ta_5387ab0cd650d9bafca3b06544604e4d/manifest.mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=bc214dfaa3244f47b7a7ec469839f791:d6d32ea089be150de4d6697caf061578
+#EXTINF:-1 tvg-logo="" type="movie" group-title="zee5", Universal Soldier Day Of Reckoning
+https://mediacf-reg1.zee5.com/drm1/elemental/dash/MOVIES/MULTI_AUDIO/SUPERFINE_FILMS/UNIVERSAL_SOLDIER_4/UNIVERSAL_SOLDIER_4_21022023_en_97c3566a23025a35a7dbb1e12c577885/manifest.mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=bcfb4c38769534409c5cec85c2e1c293:acc06f534acc747cbe225397a0403ce3
+#EXTINF:-1 tvg-logo="" type="movie" group-title="zee5", Irumbu Thirai
+https://zee5vod.akamaized.net/drm1/titanfile/dash/MOVIES/4K/SUPER_PREMIUM/DDPLUS/IRUMBU_THIRAI/IRUMBU_THIRAI_4K_24092024_ta_159d511d39af3ce98803455cbc3d7999/manifest.mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=c14efc11a7224d3684b65a1ebbef7c82:a9595a1c0008f84e6876c70e0a53ffbd
+#EXTINF:-1 tvg-logo="" type="movie" group-title="zee5", Coma
+https://mediacf-reg1.zee5.com/drm1/elemental/dash/MOVIES/MULTI_AUDIO/SUPER_FINE_FILMS/COMA/COMA_HD_10072023_en_9400c7c985f1680d8b150d691e3e66c1/manifest.mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=c811dc1f26aa3b3bae7ad335dcf59c6f:4800e7e8ca427d16fb6b77310533e885
+#EXTINF:-1 tvg-logo="" type="movie" group-title="zee5", Khuda Haafiz Chapter 2 Agni Pariksha
+https://mediacloudfront.zee5.com/drm1/titanfile/dash/MOVIES/MULTI_AUDIO/4K/DDPLUS/KHUDA_HAAFIZ_CHAPTER_2/KHUDA_HAAFIZ_CHAPTER_2_4K_08102024_hi_5008e00f9ca24fee831476b1d6555afc/manifest.mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=c9a9d7b4688f44a59d3003a2dda2a68a:e1f87d415d80fc8d11621813d59eba5b
+#EXTINF:-1 tvg-logo="" type="movie" group-title="zee5", Vivarium
