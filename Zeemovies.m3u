@@ -1590,3 +1590,120 @@ https://mediacf-reg1.zee5.com/drm1/elemental/dash/MOVIES/MULTI_AUDIO/SUPER_FINE_
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=506cc2adb0e738449da5bb03eab70f67:74a7c02e9fba3f114847998259b01a6d
 #EXTINF:-1 tvg-logo="" type="movie" group-title="zee5", Devi2
+https://mediacloudfront.zee5.com/drm1/titanfile/dash/MOVIES/4K/SUPER_PREMIUM/DDPLUS/DEVI_2/DEVI_2_4K_22102024_ta_9360988d8b5b1d437ab7611456c2a054/manifest.mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=55b827e7969942e09f38aa60fb86d929:f8421b4bf9459e01b61e2f2c26a7e9e8
+#EXTINF:-1 tvg-logo="" type="movie" group-title="zee5", Yaanai
+https://zee5vod.akamaized.net/drm1/elemental/dash/Movies/4K/DDPLUS/YAANAI/YAANAI_4K_22072022_Rev1_ta_528ceb6e79a33aefe21b2b9bbad02282/manifest.mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=6bc48f749a44469497f17f28cd400caa:7310474746dcfb0c02b88763fc3f3471
+#EXTINF:-1 tvg-logo="" type="movie" group-title="zee5", Ip Man The Real Fighter
+https://mediacloudfront.zee5.com/drm1/elemental/dash/MOVIES/MULTI_AUDIO/STAR/IP_MAN/IP_MAN_THE_REAL_FIGHTER_HD_01072023_hi_49895cc362c2f671333ae5aa9ed9d8d6/manifest.mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=7354e7d9b34930dfa9b8418332386907:e5803b40dba14ea9a15ca5c270b923cb
+#EXTINF:-1 tvg-logo="" type="movie" group-title="zee5", State Of Siege Temple Attack
+https://mediacloudfront.zee5.com/drm1/titanfile/dash/MOVIES/MULTI_AUDIO_DIFF/4K/DDPLUS/STATE_OF_TEMPLE%20_ATTACK/STATE_OF_TEMPLE_ATTACK_4K_09032024_hi_46fff183f35e17bd37d1ff34b51c2096/manifest.mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=71a8903d6f9f4d219c9c28a8cf3655e2:58bf254f3cfd16fb1350817eaf1e320e
+#EXTINF:-1 tvg-logo="" type="movie" group-title="zee5", I See You
+https://zee5vod.akamaized.net/drm1/elemental/dash/MOVIES/MULTI_AUDIO/SUPER_FINE_FILMS/I_SEE_YOU/I_SEE_YOU_HD_12122023_en_eb92944163e2f34ee1334405ac5b465c/manifest.mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=74b5352e0c7746ddbe097c36cc1491d8:b8e73bfe5d8092a16550f9d6e7905fa4
+#EXTINF:-1 tvg-logo="" type="movie" group-title="zee5", Sirf Ek Bandaa Kaafi Hai
+https://zee5vod.akamaized.net/drm1/elemental/dash/MOVIES/MULTI_AUDIO_DIFF/4K/ATMOS/SIRF_EK_BANDAA_KAFI_HAI/SIRF_EK_BANDAA_KAFI_HAI_4K_06062023_hi_bcbb38378e16a6870e12d5869955dfaa/manifest.mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=757510b582ea46b99f6a26d0996f98a5:9678c050adbb3b637ba06ea7812d5e60
+#EXTINF:-1 tvg-logo="" type="movie" group-title="zee5", Ghosty
+https://zee5vod.akamaized.net/drm1/elemental/dash/MOVIES/4K/DDPLUS/GHOSTY/GHOSTY_4K_19052023_ta_5f0240fcb1c747ec8d531b1f28fb7e23/manifest.mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=76ae0a2dae1d4f01a5635b268d7d5938:3716a832347778c254b6fe9cb14bc79f
+#EXTINF:-1 tvg-logo="" type="movie" group-title="zee5", Follow Me
+https://mediacf-reg1.zee5.com/drm1/elemental/dash/MOVIES/MULTI_AUDIO/SUPER_FINE_FILMS/FOLLOW_ME/FOLLOW_ME_HD_12122023_en_18a4edfb6f732d7bf3dc47161b0000f2/manifest.mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=7fe0c3c7756a3a2ea6c20fb49b214344:a360e91fe2d80b0eac2ddd39c68eac9e
+#EXTINF:-1 tvg-logo="" type="movie" group-title="zee5", Taal
+https://mediacf-reg1.zee5.com/drm1/titanfile/dash/MOVIES/MULTI_AUDIO/4K/TAAL/TAAL_4K_26072024_hi_bb08538408acf5a6c21f9c1c21612488/manifest.mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=8394ce363bde3dfd9036f8c47d10a66a:8bc42ba917c55d30b9b575e13bc689fb
+#EXTINF:-1 tvg-logo="" type="movie" group-title="zee5", The Kerala Story
+https://zee5vod.akamaized.net/drm1/titanfile/dash/MOVIES/V2PRIME/MULTI_AUDIO_DIFF/4K/ATMOS/THE_KERALA_STORY/THE_KERALA_STORY_4K_12022024_hi_b78f397b35e447f3e563a49100bc9e55/manifest.mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=812af7924c463e478cf3c85543556e0b:262b1cae25e11422f10c34db4bb15e07
+#EXTINF:-1 tvg-logo="" type="movie" group-title="zee5", The Kashmir Files
+https://mediacf-reg1.zee5.com/drm1/titanfile/dash/MOVIES/MULTI_AUDIO/4K/DDPLUS/THE_KASHMIR_FILES/THE_KASHMIR_FILES_4K_01022024_hi_d984b90593c0ac32107b89bff27a36a5/manifest.mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=82f44b57e5374aa9905b753bf7f7888a:1252d5ca342fc452c5a104a890583142
+#EXTINF:-1 tvg-logo="" type="movie" group-title="zee5", Jeepers Creepers 2
+https://mediacf-reg1.zee5.com/drm1/elemental/dash/MOVIES/MULTI_AUDIO/SUPERFINE_FILMS/JEEPERS_CREEPERS2/JEEPERS_CREEPERS2_HD_170223023_en_6b379a60640a6ba6496a45f155b96531/manifest.mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=843fc972b7f5372a9fe1f46a16e50f2c:46ce93d7cb79a2dc6ade91b47a9c3906
+#EXTINF:-1 tvg-logo="" type="movie" group-title="zee5", Yaadein
+https://mediacf-reg1.zee5.com/drm1/titanfile/dash/MOVIES/MULTI_AUDIO/YAADEIN/YAADEIN_4K_26102024_hi_dcd3cd8f3739b1b4e7babc1e6218bea8/manifest.mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=844745a81373323f8a9dd444a2d172ff:9c3eea5076fa7d7b8c67ea83752c2a1a
+#EXTINF:-1 tvg-logo="" type="movie" group-title="zee5", Jurassic Attack
+https://mediacloudfront.zee5.com/drm1/titanfile/dash/MOVIES/MULTI_AUDIO/SUPER_FINE_FILMS/JURASSIC_ATTACK/JURASSIC_ATTACK_HD_24012024_en_37bd5f20410258c8098bc4fbdc9e0a95/manifest.mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=846f550963944b1293df638db7d340ac:a54118d99ff56b95360d230bcfcffb5e
+#EXTINF:-1 tvg-logo="" type="movie" group-title="zee5", Vinodhaya Sitham
+https://mediacf-reg1.zee5.com/drm1/elemental/dash/MOVIES/MULTI_AUDIO/4K/VINODHAYA_SHITAM/VINODHAYA_CHITHAM_4K_13042023_ta_873faa69ac9beff429a542e040cc6668/manifest.mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=86758b418ee54569a65405aee8ca83ac:28b7302bcf175c5a3ccc3fcf99abcc91
+#EXTINF:-1 tvg-logo="" type="movie" group-title="zee5", Mathil
+https://mediacf-reg1.zee5.com/drm1/elemental/dash/Movies/4K/DDPLUS/MATHIL/MATHIL_4K_13082022_Rev1_hi_8044ae23f2e6f37e44655c477a6c7369/manifest.mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=8f53c720fef23cc4b4902bc98348c00d:12cc8c2e685fe97d3bc89a5daf852f9b
+#EXTINF:-1 tvg-logo="" type="movie" group-title="zee5", Queen Elizabeth
+https://zee5vod.akamaized.net/drm1/titanfile/dash/MOVIES/V2PRIME/MULTI_AUDIO/4K/DDPLUS/QUEEN_ELIZABETH/QUEEN_ELIZABETH_4K_12022024_ml_7843fe50e7f13663399ee7d4d6c9879b/manifest.mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=8c61a4c0833846f7b0e0236c2acdfc6c:fcbbde94e0d708bd0779cdb17474230f
+#EXTINF:-1 tvg-logo="" type="movie" group-title="zee5", Enna Solla Pogirai
+https://zee5vod.akamaized.net/drm1/elemental/dash/Movies/4K/DDPLUS/ENNA_SOLLA_POGIRAI_TAMIL/ENNA_SOLLA_POGIRAI_4K_Rev1_ta_70d5d360f08cd89830d02ae4fa4ca1b5/manifest.mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=93d549da4b6246e2a4706a0b3d13b65f:3953f155b9d0a2b7d2a6895200a5f495
+#EXTINF:-1 tvg-logo="" type="movie" group-title="zee5", Vikram
+https://mediacloudfront.zee5.com/drm1/elemental/dash/MOVIES/4K/DOLBYVISION/MULTI_AUDIO_DIFF/VIKRAM/VIKRAM_DOLBY_25112023_ta_3f704bdef9659738236499e48dcd2b5a/manifest.mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=96d14bf483f03868b9f9300a7ef5e1b3:8b75ad4e137338b09f02a4c06da73947
+#EXTINF:-1 tvg-logo="" type="movie" group-title="zee5", Bhaskar Oru Rascal
+https://mediacf-reg1.zee5.com/drm1/titanfile/dash/MOVIES/4K/SUPER_PREMIUM/DDPLUS/BHASKAR_ORU_RASCAL/BHASKAR_ORU_RASCAL_4K_30092024_ta_602cca81463ad278142858d0821b080c/manifest.mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=a7e92aa40c69329a9a25c40405758610:d3009887cc59af4ecff96e29b1db2415
+#EXTINF:-1 tvg-logo="" type="movie" group-title="zee5", Chithirai Sevvaanam
+https://mediacloudfront.zee5.com/drm1/titanfile/dash/MOVIES/MULTI_AUDIO_DIFF/4K/DDPLUS/CHITHIRAI_SEVVAANAM/CHITHIRAI_SEVVAANAM_4K_07032024_ta_96a76b3f14d50acfaad196b7d0632a54/manifest.mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=a6aa1d7d8609492ab53c0388813ccbb1:fb656b7b04a326b88017f3e64a59138a
+#EXTINF:-1 tvg-logo="" type="movie" group-title="zee5", Southern Shaolin And The Fierce Buddha Warriors
+https://zee5vod.akamaized.net/drm1/elemental/dash/MOVIES/MULTI_AUDIO/IOF/SOUTHERN_SHAOLIN_AND_THE_FIERCE_BUDDHA_WARRIORS/SOUTHERN_SHAOLIN_AND_THE_FIERCE_BUDDHA_WARRIORS_HD_26042023_hi_0d0c2452097e0fd40ac2bda689c25069/manifest.mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=ac6a0bdffa3332fcac3da26bf34c408b:f51c4c07e66edba7f80bba9128182117
+#EXTINF:-1 tvg-logo="" type="movie" group-title="zee5", 14 Phere
+https://mediacf-reg1.zee5.com/drm1/titanfile/dash/MOVIES/MULTI_AUDIO_DIFF/4K/DDPLUS/14_PHERE/14_PHERE_4K_10032024_hi_bde900ebb4d42960a8a22aff7a064923/manifest.mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=ace02db4be2d43fd81544ca3b3e53ebc:6ba914aaae8eadfc3d1d2d36bdeed860
+#EXTINF:-1 tvg-logo="" type="movie" group-title="zee5", Poseidon Rex
+https://mediacf-reg1.zee5.com/drm1/elemental/dash/MOVIES/MULTI_AUDIO/SUPERFINE_FILMS/POSEIDON_REX/POSEIDON_REX_HD_09062023_en_1f1f7c451e70882b7ee2f1a1d5a9c18d/manifest.mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=b0c91e146e3145f181972d16be9d456d:95a0e9cd40311937cfb0530aa4ecb19d
+#EXTINF:-1 tvg-logo="" type="movie" group-title="zee5", The Balkan Line
+https://mediacloudfront.zee5.com/drm1/elemental/dash/MOVIES/MULTI_AUDIO/SUPERFINE_FILMS/THE_BALKAN_LINE/THE_BALKAN_LINE_HD_07022023_en_e873c0f0bbf9e3e8ce2917b465ef9dd9/manifest.mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=bbe7eeefdfa145988f6cfa70b453a7dc:b7d3ad446dbb622b27ae7ed9b3165b7a
+#EXTINF:-1 tvg-logo="" type="movie" group-title="zee5", Snake Island Python
+https://zee5vod.akamaized.net/drm1/elemental/dash/MOVIES/MULTI_AUDIO/IOF/SNAKE_ISLAND/SNAKE_ISLAND_HD_01062023_hi_1c53b3bdb6e3cd2a05402f202390a0af/manifest.mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=c19e50562e2c4d699146bc4f9955acb7:1c37afa8b0d51b688c94f34df3047be5
+#EXTINF:-1 tvg-logo="" type="movie" group-title="zee5", The Great Indian Kitchen
+https://zee5vod.akamaized.net/drm1/elemental/dash/MOVIES/V2PRIME/MULTI_AUDIO/DDPLUS/THE_GREAT_INDIAN_KITCHEN/THE_GREAT_INDIAN_KITCHEN_HD_28022023_ta_e919d6511d2a79631753e24d9771a296/manifest.mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=c4657b7f31374ae7946c597d6a3c5839:d20e62de40a772f9763c1069a98ca6e3
+#EXTINF:-1 tvg-logo="" type="movie" group-title="zee5", Vimanam Tamil
+https://zee5vod.akamaized.net/drm1/elemental/dash/MOVIES/V2PRIME/DDPLUS/VIMANAM/VIMANAM_HD_03072023_ta_b0a891a2051681e59561553d06f461b9/manifest.mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=cfcb605e657d4d39996685e8fa1535d0:0746ea90b9ba7504e46a2a107916120b
+#EXTINF:-1 tvg-logo="" type="movie" group-title="zee5", Ayothi
+https://zee5vod.akamaized.net/drm1/elemental/dash/MOVIES/V2PRIME/Ayothi_Tamil_Movie_With_CBFC_07042023_ta_12ed4324b7887cbfcf55b6d52f16dba3/manifest.mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=ccf6dc6c709f4007ac7af58ed83968d6:8d0b5aaed7496e438613880c6523b601
+#EXTINF:-1 tvg-logo="" type="movie" group-title="zee5", Tamilarasan
+https://zee5vod.akamaized.net/drm1/elemental/dash/MOVIES/V2PRIME/Tamilarasan_Tamil_Movie_With_CBFC_16062023_ta_6b1f548ce9c0aa3be4f2da86c77b601b/manifest.mpd
