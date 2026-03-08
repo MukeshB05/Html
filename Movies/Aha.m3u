@@ -322,3 +322,194 @@ https://streaming-vod-aha.akamaized.net/content/pubcontent/vol/24C60CF0-B254-44C
 #EXTINF:-1 tvg-logo="https://image-resizer-cloud-api.akamaized.net/image/2573D822-5BC9-4658-BC9A-944CAB13FA09/0-16x9.jpg?width=640" type="movie" group-logo="https://upload.wikimedia.org/wikipedia/en/thumb/d/da/Aha_%28streaming_service.svg/1200px-Aha_%28streaming_service.svg.png" group-title="Aha", Friendship
 https://streaming-vod-aha.akamaized.net/content/pubcontent/vol/2573D822-5BC9-4658-BC9A-944CAB13FA09/1653310615824-output_cenc_dash.ism/index.mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=2bddc1ab7f694de4a33f43fa4fff90ab:637f685cdcece3c11d3d8410f62d65d8
+#EXTINF:-1 tvg-logo="https://image-resizer-cloud-api.akamaized.net/image/2BDDC1AB-7F69-4DE4-A33F-43FA4FFF90AB/0-16x9.jpg?width=640" type="movie" group-logo="https://upload.wikimedia.org/wikipedia/en/thumb/d/da/Aha_%28streaming_service.svg/1200px-Aha_%28streaming_service.svg.png" group-title="Aha", Gemini Ganeshanum Suruli Raajanum
+https://streaming-vod-aha.akamaized.net/content/pubcontent/vol/2BDDC1AB-7F69-4DE4-A33F-43FA4FFF90AB/1649745892807-output_cenc_dash.ism/index.mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=2bd45fdbcee64d9bbf6d109acc9621f8:1a743a34302737503b60bdbdba29a22c
+#EXTINF:-1 tvg-logo="https://image-resizer-cloud-api.akamaized.net/image/2BD45FDB-CEE6-4D9B-BF6D-109ACC9621F8/0-16x9.jpg?width=640" type="movie" group-logo="https://upload.wikimedia.org/wikipedia/en/thumb/d/da/Aha_%28streaming_service.svg/1200px-Aha_%28streaming_service.svg.png" group-title="Aha", Kuselan
+https://streaming-vod-aha.akamaized.net/content/pubcontent/vol/2BD45FDB-CEE6-4D9B-BF6D-109ACC9621F8/1649745911299-output_cenc_dash.ism/index.
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=2fb7da4862d745f28668269fab46d384:885ef1d6f2c20e5c4ccadc71647444e7
+#EXTINF:-1 tvg-logo="https://image-resizer-cloud-api.akamaized.net/image/2FB7DA48-62D7-45F2-8668-269FAB46D384/0-16x9.jpg?width=640" type="movie" group-logo="https://upload.wikimedia.org/wikipedia/en/thumb/d/da/Aha_%28streaming_service.svg/1200px-Aha_%28streaming_service.svg.png" group-title="Aha", Gummalam
+https://streaming-vod-aha.akamaized.net/content/pubcontent/vol/2FB7DA48-62D7-45F2-8668-269FAB46D384/1649734558932-output_cenc_dash.ism/index.mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=2fd17861a2cf4a92a1ef80e982f78c64:27291ae09410b7efef31149773c5aba6
+#EXTINF:-1 tvg-logo="https://image-resizer-cloud-api.akamaized.net/image/2FD17861-A2CF-4A92-A1EF-80E982F78C64/0-16x9.jpg?width=640" type="movie" group-logo="https://upload.wikimedia.org/wikipedia/en/thumb/d/da/Aha_%28streaming_service.svg/1200px-Aha_%28streaming_service.svg.png" group-title="Aha", Nedunalvaadai
+https://streaming-vod-aha.akamaized.net/content/pubcontent/vol/2FD17861-A2CF-4A92-A1EF-80E982F78C64/1649734527050-output_cenc_dash.ism/index.mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=2c65c00dcb0a43979f88b3b319c80fe5:805e59b84376ebebfdf069078ab8d72b
+#EXTINF:-1 tvg-logo="https://image-resizer-cloud-api.akamaized.net/image/2C65C00D-CB0A-4397-9F88-B3B319C80FE5/0-16x9.jpg?width=640" type="movie" group-logo="https://upload.wikimedia.org/wikipedia/en/thumb/d/da/Aha_%28streaming_service.svg/1200px-Aha_%28streaming_service.svg.png" group-title="Aha", Kavalai Vendam
+https://streaming-vod-aha.akamaized.net/content/pubcontent/vol/2C65C00D-CB0A-4397-9F88-B3B319C80FE5/1649734558162-output_cenc_dash.ism/index.mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=2ca0b2f9a62c4c2e8a40e80c2a450ded:9071b910664bfd245bdd87b81731ad14
+#EXTINF:-1 tvg-logo="https://image-resizer-cloud-api.akamaized.net/image/2CA0B2F9-A62C-4C2E-8A40-E80C2A450DED/0-16x9.jpg?width=640" type="movie" group-logo="https://upload.wikimedia.org/wikipedia/en/thumb/d/da/Aha_%28streaming_service.svg/1200px-Aha_%28streaming_service.svg.png" group-title="Aha", Pokkiri Raja
+https://streaming-vod-aha.akamaized.net/content/pubcontent/vol/2CA0B2F9-A62C-4C2E-8A40-E80C2A450DED/1650612008415-output_cenc_dash.ism/index.mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=2dc60c4de8a643cc83a35c4aedb28e73:d13f6627b61c0145a8a7d847929b683a
+#EXTINF:-1 tvg-logo="https://image-resizer-cloud-api.akamaized.net/image/2DC60C4D-E8A6-43CC-83A3-5C4AEDB28E73/0-16x9.jpg?width=640" type="movie" group-logo="https://upload.wikimedia.org/wikipedia/en/thumb/d/da/Aha_%28streaming_service.svg/1200px-Aha_%28streaming_service.svg.png" group-title="Aha", Sivakasi
+https://streaming-vod-aha.akamaized.net/content/pubcontent/vol/2DC60C4D-E8A6-43CC-83A3-5C4AEDB28E73/1649734515856-output_cenc_dash.ism/index.mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=3003dfb88a1344289b1a2b55e54a52e4:b27214409972837a726d3ed9e5b2878f
+#EXTINF:-1 tvg-logo="https://image-resizer-cloud-api.akamaized.net/image/3003DFB8-8A13-4428-9B1A-2B55E54A52E4/0-16x9.jpg?width=640" type="movie" group-logo="https://upload.wikimedia.org/wikipedia/en/thumb/d/da/Aha_%28streaming_service.svg/1200px-Aha_%28streaming_service.svg.png" group-title="Aha", Kalyanaraman
+https://streaming-vod-aha.akamaized.net/content/pubcontent/vol/3003DFB8-8A13-4428-9B1A-2B55E54A52E4/1649734523952-output_cenc_dash.ism/index.mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=37959f3cf9104afcab520208e0c8c174:43b35dfaa50ec6bbe9b581758348bfa5
+#EXTINF:-1 tvg-logo="https://image-resizer-cloud-api.akamaized.net/image/37959F3C-F910-4AFC-AB52-0208E0C8C174/0-16x9.jpg?width=640" type="movie" group-logo="https://upload.wikimedia.org/wikipedia/en/thumb/d/da/Aha_%28streaming_service.svg/1200px-Aha_%28streaming_service.svg.png" group-title="Aha", Sakalakala Vallavan
+https://streaming-vod-aha.akamaized.net/content/pubcontent/vol/37959F3C-F910-4AFC-AB52-0208E0C8C174/1649734508442-output_cenc_dash.ism/index.mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=379bce7ac8544433b3218e5a7b90f57d:6a8a8710c38e879ee43988a14b0d6395
+#EXTINF:-1 tvg-logo="https://image-resizer-cloud-api.akamaized.net/image/379BCE7A-C854-4433-B321-8E5A7B90F57D/0-16x9.jpg?width=640" type="movie" group-logo="https://upload.wikimedia.org/wikipedia/en/thumb/d/da/Aha_%28streaming_service.svg/1200px-Aha_%28streaming_service.svg.png" group-title="Aha", Manithan
+https://streaming-vod-aha.akamaized.net/content/pubcontent/vol/379BCE7A-C854-4433-B321-8E5A7B90F57D/1649734539980-output_cenc_dash.ism/index.mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=368c12fe8a864dae820c176707785cc4:46d8e252c219b537e62de50533676931
+#EXTINF:-1 tvg-logo="https://image-resizer-cloud-api.akamaized.net/image/368C12FE-8A86-4DAE-820C-176707785CC4/0-16x9.jpg?width=640" type="movie" group-logo="https://upload.wikimedia.org/wikipedia/en/thumb/d/da/Aha_%28streaming_service.svg/1200px-Aha_%28streaming_service.svg.png" group-title="Aha", Kuththu
+https://streaming-vod-aha.akamaized.net/content/pubcontent/vol/368C12FE-8A86-4DAE-820C-176707785CC4/1730110068448-output_cenc_dash.ism/index.mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=380773bbb3ed418c806dc66186f7b927:9b141fe35a69d5c14d0db253d1d23c69
+#EXTINF:-1 tvg-logo="https://image-resizer-cloud-api.akamaized.net/image/380773BB-B3ED-418C-806D-C66186F7B927/0-16x9.jpg?width=640" type="movie" group-logo="https://upload.wikimedia.org/wikipedia/en/thumb/d/da/Aha_%28streaming_service.svg/1200px-Aha_%28streaming_service.svg.png" group-title="Aha", Gokulathil Seethai
+https://streaming-vod-aha.akamaized.net/content/pubcontent/vol/380773BB-B3ED-418C-806D-C66186F7B927/1649734549007-output_cenc_dash.ism/index.mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=3a6b474eef264194a2cce163b5e5852f:005f885521d6340a409e3b063b0da5de
+#EXTINF:-1 tvg-logo="https://image-resizer-cloud-api.akamaized.net/image/3A6B474E-EF26-4194-A2CC-E163B5E5852F/0-16x9.jpg?width=640" type="movie" group-logo="https://upload.wikimedia.org/wikipedia/en/thumb/d/da/Aha_%28streaming_service.svg/1200px-Aha_%28streaming_service.svg.png" group-title="Aha", Trisha Illana Nayanthara
+https://streaming-vod-aha.akamaized.net/content/pubcontent/vol/3A6B474E-EF26-4194-A2CC-E163B5E5852F/1649734529406-output_cenc_dash.ism/index.mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=3afcfcd013ed44b1941c1eba1a4385f3:94c648d16051a3d4ee08cbf5528260da
+#EXTINF:-1 tvg-logo="https://image-resizer-cloud-api.akamaized.net/image/3AFCFCD0-13ED-44B1-941C-1EBA1A4385F3/0-16x9.jpg?width=640" type="movie" group-logo="https://upload.wikimedia.org/wikipedia/en/thumb/d/da/Aha_%28streaming_service.svg/1200px-Aha_%28streaming_service.svg.png" group-title="Aha", Harichandra
+https://streaming-vod-aha.akamaized.net/content/pubcontent/vol/3AFCFCD0-13ED-44B1-941C-1EBA1A4385F3/1649734510601-output_cenc_dash.ism/index.mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=3f434b266a97429994208b72655b0c49:dc97f48858992417d48e056764c32206
+#EXTINF:-1 tvg-logo="https://image-resizer-cloud-api.akamaized.net/image/3F434B26-6A97-4299-9420-8B72655B0C49/0-16x9.jpg?width=640" type="movie" group-logo="https://upload.wikimedia.org/wikipedia/en/thumb/d/da/Aha_%28streaming_service.svg/1200px-Aha_%28streaming_service.svg.png" group-title="Aha", Captain Prabhakaran
+https://streaming-vod-aha.akamaized.net/content/pubcontent/vol/3F434B26-6A97-4299-9420-8B72655B0C49/1730110066605-output_cenc_dash.ism/index.mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=3d3ea8f4cca643b4b5e35b47359a818c:8e1cbb66a5a981eb1bc3d77f579687b4
+#EXTINF:-1 tvg-logo="https://image-resizer-cloud-api.akamaized.net/image/3D3EA8F4-CCA6-43B4-B5E3-5B47359A818C/0-16x9.jpg?width=640" type="movie" group-logo="https://upload.wikimedia.org/wikipedia/en/thumb/d/da/Aha_%28streaming_service.svg/1200px-Aha_%28streaming_service.svg.png" group-title="Aha", Thiruda Thirudi
+https://streaming-vod-aha.akamaized.net/content/pubcontent/vol/3D3EA8F4-CCA6-43B4-B5E3-5B47359A818C/1730110075816-output_cenc_dash.ism/index.mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=3dc3e3cacb1a44c8a06511e82caca0dc:a41e6ed0faefef8caed9ec7b8cdf459c
+#EXTINF:-1 tvg-logo="https://image-resizer-cloud-api.akamaized.net/image/3DC3E3CA-CB1A-44C8-A065-11E82CACA0DC/0-16x9.jpg?width=640" type="movie" group-logo="https://upload.wikimedia.org/wikipedia/en/thumb/d/da/Aha_%28streaming_service.svg/1200px-Aha_%28streaming_service.svg.png" group-title="Aha", Draupathi
+https://streaming-vod-aha.akamaized.net/content/pubcontent/vol/3DC3E3CA-CB1A-44C8-A065-11E82CACA0DC/1649745535666-output_cenc_dash.ism/index.mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=3dda4dab3e8d491eb7cd829082ffe537:c2a89b0233fc0e5942f4209a40108fbc
+#EXTINF:-1 tvg-logo="https://image-resizer-cloud-api.akamaized.net/image/C7CCEDA3-BA45-47A6-9EFA-43D2F34FB983/0-16x9.jpg?width=640" type="movie" group-logo="https://upload.wikimedia.org/wikipedia/en/thumb/d/da/Aha_%28streaming_service.svg/1200px-Aha_%28streaming_service.svg.png" group-title="Aha", Payanigal Gavanikavum
+https://streaming-vod-aha.akamaized.net/content/pubcontent/vol/3DDA4DAB-3E8D-491E-B7CD-829082FFE537/1652269483583-output_cenc_dash.ism/index.mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=40c284a4a6ca4f14a625f2dc052dcd9a:1bfdb5c8123b57b37e49d02a9a317ebb
+#EXTINF:-1 tvg-logo="https://image-resizer-cloud-api.akamaized.net/image/40C284A4-A6CA-4F14-A625-F2DC052DCD9A/0-16x9.jpg?width=640" type="movie" group-logo="https://upload.wikimedia.org/wikipedia/en/thumb/d/da/Aha_%28streaming_service.svg/1200px-Aha_%28streaming_service.svg.png" group-title="Aha", Selfie
+https://streaming-vod-aha.akamaized.net/content/pubcontent/vol/40C284A4-A6CA-4F14-A625-F2DC052DCD9A/1730096319767-output_cenc_dash.ism/index.mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=4478c628c7014e179ba6f0dd23e1e0a9:50a041d6b3d8c32d13aa0ad21dd3105e
+#EXTINF:-1 tvg-logo="https://image-resizer-cloud-api.akamaized.net/image/4478C628-C701-4E17-9BA6-F0DD23E1E0A9/0-16x9.jpg?width=640" type="movie" group-logo="https://upload.wikimedia.org/wikipedia/en/thumb/d/da/Aha_%28streaming_service.svg/1200px-Aha_%28streaming_service.svg.png" group-title="Aha", Middle Class Madhavan
+https://streaming-vod-aha.akamaized.net/content/pubcontent/vol/4478C628-C701-4E17-9BA6-F0DD23E1E0A9/1649734532211-output_cenc_dash.ism/index.mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=45c58fbbeb5e4cb8a51a57a3e16a82ff:c17b2de72688da28d7bff79754a0476b
+#EXTINF:-1 tvg-logo="https://image-resizer-cloud-api.akamaized.net/image/714F9D2F-1006-4DB2-AF79-8E438937DF37/0-16x9.jpg?width=640" type="movie" group-logo="https://upload.wikimedia.org/wikipedia/en/thumb/d/da/Aha_%28streaming_service.svg/1200px-Aha_%28streaming_service.svg.png" group-title="Aha", Manmadhaleelai
+https://streaming-vod-aha.akamaized.net/content/pubcontent/vol/45C58FBB-EB5E-4CB8-A51A-57A3E16A82FF/1651053673053-output_cenc_dash.ism/index.mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=4bd4476ee2994ba4a0f547de75eae3ff:92c1dec69b5bf47c7fdcd7c0d8670e5a
+#EXTINF:-1 tvg-logo="https://image-resizer-cloud-api.akamaized.net/image/4BD4476E-E299-4BA4-A0F5-47DE75EAE3FF/0-16x9.jpg?width=640" type="movie" group-logo="https://upload.wikimedia.org/wikipedia/en/thumb/d/da/Aha_%28streaming_service.svg/1200px-Aha_%28streaming_service.svg.png" group-title="Aha", Bheemaa
+https://streaming-vod-aha.akamaized.net/content/pubcontent/vol/4BD4476E-E299-4BA4-A0F5-47DE75EAE3FF/1649734533763-output_cenc_dash.ism/index.mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=4a24ac0d4b8546c6ae289441416dc99b:974c83ced22efa4ff52f792884d9ae76
+#EXTINF:-1 tvg-logo="https://image-resizer-cloud-api.akamaized.net/image/4A24AC0D-4B85-46C6-AE28-9441416DC99B/0-16x9.jpg?width=640" type="movie" group-logo="https://upload.wikimedia.org/wikipedia/en/thumb/d/da/Aha_%28streaming_service.svg/1200px-Aha_%28streaming_service.svg.png" group-title="Aha", Avvai Shanmughi
+https://streaming-vod-aha.akamaized.net/content/pubcontent/vol/4A24AC0D-4B85-46C6-AE28-9441416DC99B/1649745899495-output_cenc_dash.ism/index.mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=4d82ad26841e4feca572f2754dc8a2f5:f9235face2b832c6b1400d8c33f47999
+#EXTINF:-1 tvg-logo="https://image-resizer-cloud-api.akamaized.net/image/4D82AD26-841E-4FEC-A572-F2754DC8A2F5/0-16x9.jpg?width=640" type="movie" group-logo="https://upload.wikimedia.org/wikipedia/en/thumb/d/da/Aha_%28streaming_service.svg/1200px-Aha_%28streaming_service.svg.png" group-title="Aha", Andha Naal
+https://streaming-vod-aha.akamaized.net/content/pubcontent/vol/4D82AD26-841E-4FEC-A572-F2754DC8A2F5/1649734513515-output_cenc_dash.ism/index.mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=4e4c5baef1344ff68a6a61a88b003ffc:53aa6c887f615c92ccff1c2b539997fb
+#EXTINF:-1 tvg-logo="https://image-resizer-cloud-api.akamaized.net/image/4E4C5BAE-F134-4FF6-8A6A-61A88B003FFC/0-16x9.jpg?width=640" type="movie" group-logo="https://upload.wikimedia.org/wikipedia/en/thumb/d/da/Aha_%28streaming_service.svg/1200px-Aha_%28streaming_service.svg.png" group-title="Aha", Perazhagan
+https://streaming-vod-aha.akamaized.net/content/pubcontent/vol/4E4C5BAE-F134-4FF6-8A6A-61A88B003FFC/1649745910502-output_cenc_dash.ism/index.mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=4f3e3df73a0a42308fa5db708aa9d15c:c39f25608f1816ff4c7387ee92b810ea
+#EXTINF:-1 tvg-logo="https://image-resizer-cloud-api.akamaized.net/image/4F3E3DF7-3A0A-4230-8FA5-DB708AA9D15C/0-16x9.jpg?width=640" type="movie" group-logo="https://upload.wikimedia.org/wikipedia/en/thumb/d/da/Aha_%28streaming_service.svg/1200px-Aha_%28streaming_service.svg.png" group-title="Aha", Gemini
+https://streaming-vod-aha.akamaized.net/content/pubcontent/vol/4F3E3DF7-3A0A-4230-8FA5-DB708AA9D15C/1649734497300-output_cenc_dash.ism/index.mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=506baa98da844382b61b33a39984b948:d030b1759d851d78f83c78f3ff011b5e
+#EXTINF:-1 tvg-logo="https://image-resizer-cloud-api.akamaized.net/image/506BAA98-DA84-4382-B61B-33A39984B948/0-16x9.jpg?width=640" type="movie" group-logo="https://upload.wikimedia.org/wikipedia/en/thumb/d/da/Aha_%28streaming_service.svg/1200px-Aha_%28streaming_service.svg.png" group-title="Aha", Per Sollum Pillai
+https://streaming-vod-aha.akamaized.net/content/pubcontent/vol/506BAA98-DA84-4382-B61B-33A39984B948/1649734551270-output_cenc_dash.ism/index.mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=50acaf59a3ca49b8ae63bcef0f168cc9:423bae2400d51a98dfe7618bbd514050
+#EXTINF:-1 tvg-logo="https://image-resizer-cloud-api.akamaized.net/image/50ACAF59-A3CA-49B8-AE63-BCEF0F168CC9/0-16x9.jpg?width=640" type="movie" group-logo="https://upload.wikimedia.org/wikipedia/en/thumb/d/da/Aha_%28streaming_service.svg/1200px-Aha_%28streaming_service.svg.png" group-title="Aha", Kannathil Muthamittal
+https://streaming-vod-aha.akamaized.net/content/pubcontent/vol/50ACAF59-A3CA-49B8-AE63-BCEF0F168CC9/1649745911701-output_cenc_dash.ism/index.mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=55d14eee849f42ad89428d51ba53c59a:b518b4a00a7d92d192533c713c551b9a
+#EXTINF:-1 tvg-logo="https://image-resizer-cloud-api.akamaized.net/image/55D14EEE-849F-42AD-8942-8D51BA53C59A/0-16x9.jpg?width=640" type="movie" group-logo="https://upload.wikimedia.org/wikipedia/en/thumb/d/da/Aha_%28streaming_service.svg/1200px-Aha_%28streaming_service.svg.png" group-title="Aha", Once More
+https://streaming-vod-aha.akamaized.net/content/pubcontent/vol/55D14EEE-849F-42AD-8942-8D51BA53C59A/1649745909206-output_cenc_dash.ism/index.mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=589338331d424f27b0ee55718f3d0b75:c3411acac3b6197fc53b3bcb1d4ee0cf
+#EXTINF:-1 tvg-logo="https://image-resizer-cloud-api.akamaized.net/image/58933833-1D42-4F27-B0EE-55718F3D0B75/0-16x9.jpg?width=640" type="movie" group-logo="https://upload.wikimedia.org/wikipedia/en/thumb/d/da/Aha_%28streaming_service.svg/1200px-Aha_%28streaming_service.svg.png" group-title="Aha", Indian
+https://streaming-vod-aha.akamaized.net/content/pubcontent/vol/58933833-1D42-4F27-B0EE-55718F3D0B75/1649745904556-output_cenc_dash.ism/index.mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=599aa2dd40594642b4a3178e9b69bc39:20793af631036837197bbf4c436d7c8f
+#EXTINF:-1 tvg-logo="https://image-resizer-cloud-api.akamaized.net/image/599AA2DD-4059-4642-B4A3-178E9B69BC39/0-16x9.jpg?width=640" type="movie" group-logo="https://upload.wikimedia.org/wikipedia/en/thumb/d/da/Aha_%28streaming_service.svg/1200px-Aha_%28streaming_service.svg.png" group-title="Aha", Cinderella
+https://streaming-vod-aha.akamaized.net/content/pubcontent/vol/599AA2DD-4059-4642-B4A3-178E9B69BC39/1649745907468-output_cenc_dash.ism/index.mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=5fd716ca2a784d319416e19a434e63e1:6db2b04241a8970e9520fc71d4a3230c
+#EXTINF:-1 tvg-logo="https://image-resizer-cloud-api.akamaized.net/image/5FD716CA-2A78-4D31-9416-E19A434E63E1/0-16x9.jpg?width=640" type="movie" group-logo="https://upload.wikimedia.org/wikipedia/en/thumb/d/da/Aha_%28streaming_service.svg/1200px-Aha_%28streaming_service.svg.png" group-title="Aha", Aruvam
+https://streaming-vod-aha.akamaized.net/content/pubcontent/vol/5FD716CA-2A78-4D31-9416-E19A434E63E1/1649745910061-output_cenc_dash.ism/index.mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=6349cb6180aa4b9f99540a5c7a87b6d1:1eb37a4b99346f2aca609c1fb01a2ee4
+#EXTINF:-1 tvg-logo="https://image-resizer-cloud-api.akamaized.net/image/6349CB61-80AA-4B9F-9954-0A5C7A87B6D1/0-16x9.jpg?width=640" type="movie" group-logo="https://upload.wikimedia.org/wikipedia/en/thumb/d/da/Aha_%28streaming_service.svg/1200px-Aha_%28streaming_service.svg.png" group-title="Aha", Diary
+https://streaming-vod-aha.akamaized.net/content/pubcontent/vol/6349CB61-80AA-4B9F-9954-0A5C7A87B6D1/1730096340897-output_cenc_dash.ism/index.mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=6161340230e34943964b3b290fadedb7:9e7c27da53e4078dad02b8b49bb9107c
+#EXTINF:-1 tvg-logo="https://image-resizer-cloud-api.akamaized.net/image/61613402-30E3-4943-964B-3B290FADEDB7/0-16x9.jpg?width=640" type="movie" group-logo="https://upload.wikimedia.org/wikipedia/en/thumb/d/da/Aha_%28streaming_service.svg/1200px-Aha_%28streaming_service.svg.png" group-title="Aha", Alaipayuthey
+https://streaming-vod-aha.akamaized.net/content/pubcontent/vol/61613402-30E3-4943-964B-3B290FADEDB7/1649745897117-output_cenc_dash.ism/index.mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=647a0c4bf34147c29511c6a4da76d64f:d3560ba85e6dedb9582b456d43ebfd8c
+#EXTINF:-1 tvg-logo="https://image-resizer-cloud-api.akamaized.net/image/647A0C4B-F341-47C2-9511-C6A4DA76D64F/0-16x9.jpg?width=640" type="movie" group-logo="https://upload.wikimedia.org/wikipedia/en/thumb/d/da/Aha_%28streaming_service.svg/1200px-Aha_%28streaming_service.svg.png" group-title="Aha", Samurai
+https://streaming-vod-aha.akamaized.net/content/pubcontent/vol/647A0C4B-F341-47C2-9511-C6A4DA76D64F/1649745908770-output_cenc_dash.ism/index.mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=6562b9e0c1de4a9e95c2284cb696b3dc:be833a7c74b3d4dc225fcaab8352e4fb
+#EXTINF:-1 tvg-logo="https://image-resizer-cloud-api.akamaized.net/image/DE6485E9-3DF3-4F41-A4A7-5CD1F340BA2C/0-16x9.jpg?width=640" type="movie" group-logo="https://upload.wikimedia.org/wikipedia/en/thumb/d/da/Aha_%28streaming_service.svg/1200px-Aha_%28streaming_service.svg.png" group-title="Aha", Love Birds
+https://streaming-vod-aha.akamaized.net/content/pubcontent/vol/6562B9E0-C1DE-4A9E-95C2-284CB696B3DC/1730110051400-output_cenc_dash.ism/index.mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=670c452e22c94073b55dafafad7616df:269978d814b252838a2006fd4f2a830f
+#EXTINF:-1 tvg-logo="https://image-resizer-cloud-api.akamaized.net/image/D977F58A-0EC1-441C-BB98-3414E9CE8103/0-16x9.jpg?width=640" type="movie" group-logo="https://upload.wikimedia.org/wikipedia/en/thumb/d/da/Aha_%28streaming_service.svg/1200px-Aha_%28streaming_service.svg.png" group-title="Aha", Michael Madana Kama Rajan
+https://streaming-vod-aha.akamaized.net/content/pubcontent/vol/670C452E-22C9-4073-B55D-AFAFAD7616DF/1730110053206-output_cenc_dash.ism/index.mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=692cea4cbfe04067bb13db3229f9cdb6:6fab54da4536b252ef72fcf78084a82e
+#EXTINF:-1 tvg-logo="https://image-resizer-cloud-api.akamaized.net/image/692CEA4C-BFE0-4067-BB13-DB3229F9CDB6/0-16x9.jpg?width=640" type="movie" group-logo="https://upload.wikimedia.org/wikipedia/en/thumb/d/da/Aha_%28streaming_service.svg/1200px-Aha_%28streaming_service.svg.png" group-title="Aha", Miga Miga Avasaram
+https://streaming-vod-aha.akamaized.net/content/pubcontent/vol/692CEA4C-BFE0-4067-BB13-DB3229F9CDB6/1647524560968-output_cenc_dash.ism/index.mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=6adadbd1aba4466aabc33f05c1139b7f:edc093d51103574d3d663308b22d678a
+#EXTINF:-1 tvg-logo="https://image-resizer-cloud-api.akamaized.net/image/6ADADBD1-ABA4-466A-ABC3-3F05C1139B7F/0-16x9.jpg?width=640" type="movie" group-logo="https://upload.wikimedia.org/wikipedia/en/thumb/d/da/Aha_%28streaming_service.svg/1200px-Aha_%28streaming_service.svg.png" group-title="Aha", Maamanithan
+https://streaming-vod-aha.akamaized.net/content/pubcontent/vol/6ADADBD1-ABA4-466A-ABC3-3F05C1139B7F/1730096331089-output_cenc_dash.ism/index.mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=6c42361b9fe74ab38231c0934d71782d:68a266122ff7e2ed23762f1a6a02ebc2
+#EXTINF:-1 tvg-logo="https://image-resizer-cloud-api.akamaized.net/image/6C42361B-9FE7-4AB3-8231-C0934D71782D/0-16x9.jpg?width=640" type="movie" group-logo="https://upload.wikimedia.org/wikipedia/en/thumb/d/da/Aha_%28streaming_service.svg/1200px-Aha_%28streaming_service.svg.png" group-title="Aha", The Birthday Boy Tamil
+https://streaming-vod-aha.akamaized.net/content/pubcontent/vol/6C42361B-9FE7-4AB3-8231-C0934D71782D/1731058551067-output_cenc_dash.ism/index.mpd
+#KODIPROP:inputstream.adaptive.license_key=6ee4d708dbb3400e9fb72a9fa12431fc:31346a5f28be483cd9404fc76e5c8473
+#EXTINF:-1 tvg-logo="https://image-resizer-cloud-api.akamaized.net/image/6EE4D708-DBB3-400E-9FB7-2A9FA12431FC/0-16x9.jpg?width=640" type="movie" group-logo="https://upload.wikimedia.org/wikipedia/en/thumb/d/da/Aha_%28streaming_service.svg/1200px-Aha_%28streaming_service.svg.png" group-title="Aha", Level Cross
+https://streaming-vod-aha.akamaized.net/content/pubcontent/vol/6EE4D708-DBB3-400E-9FB7-2A9FA12431FC/1730096523289-output_cenc_dash.ism/index.mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=6ef3c9f606894cc98c216d9c17e73f3a:2bbb51f56706f571a7532a59c8068254
+#EXTINF:-1 tvg-logo="https://image-resizer-cloud-api.akamaized.net/image/6EF3C9F6-0689-4CC9-8C21-6D9C17E73F3A/0-16x9.jpg?width=640" type="movie" group-logo="https://upload.wikimedia.org/wikipedia/en/thumb/d/da/Aha_%28streaming_service.svg/1200px-Aha_%28streaming_service.svg.png" group-title="Aha", Samsaram Adhu Minsaram
+https://streaming-vod-aha.akamaized.net/content/pubcontent/vol/6EF3C9F6-0689-4CC9-8C21-6D9C17E73F3A/1649734506875-output_cenc_dash.ism/index.mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=7351005afb364de8904fd7060122d7cf:afa1e840fbd19ad2dd02d337e007f079
+#EXTINF:-1 tvg-logo="https://image-resizer-cloud-api.akamaized.net/image/7351005A-FB36-4DE8-904F-D7060122D7CF/0-16x9.jpg?width=640" type="movie" group-logo="https://upload.wikimedia.org/wikipedia/en/thumb/d/da/Aha_%28streaming_service.svg/1200px-Aha_%28streaming_service.svg.png" group-title="Aha", Five Star
+https://streaming-vod-aha.akamaized.net/content/pubcontent/vol/7351005A-FB36-4DE8-904F-D7060122D7CF/1649745895970-output_cenc_dash.ism/index.mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=73631d4234aa42a9a03ae50903b897a9:b0dd87e5bdba04368b70c4b14cabbf6f
+#EXTINF:-1 tvg-logo="https://image-resizer-cloud-api.akamaized.net/image/73631D42-34AA-42A9-A03A-E50903B897A9/0-16x9.jpg?width=640" type="movie" group-logo="https://upload.wikimedia.org/wikipedia/en/thumb/d/da/Aha_%28streaming_service.svg/1200px-Aha_%28streaming_service.svg.png" group-title="Aha", Thiruda Thiruda
+https://streaming-vod-aha.akamaized.net/content/pubcontent/vol/73631D42-34AA-42A9-A03A-E50903B897A9/1649745899908-output_cenc_dash.ism/index.mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=70f091bd97b04d6988d9d653b8d1d779:d83f9785d0b83b8384be984754e0aea4
+#EXTINF:-1 tvg-logo="https://image-resizer-cloud-api.akamaized.net/image/70F091BD-97B0-4D69-88D9-D653B8D1D779/0-16x9.jpg?width=640" type="movie" group-logo="https://upload.wikimedia.org/wikipedia/en/thumb/d/da/Aha_%28streaming_service.svg/1200px-Aha_%28streaming_service.svg.png" group-title="Aha", Veera
+https://streaming-vod-aha.akamaized.net/content/pubcontent/vol/70F091BD-97B0-4D69-88D9-D653B8D1D779/1730110055617-output_cenc_dash.ism/index.mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=714f9d2f10064db2af798e438937df37:067c9cd4b09e621bc62ad7440cc80f04
+#EXTINF:-1 tvg-logo="https://image-resizer-cloud-api.akamaized.net/image/714F9D2F-1006-4DB2-AF79-8E438937DF37/0-16x9.jpg?width=640" type="movie" group-logo="https://upload.wikimedia.org/wikipedia/en/thumb/d/da/Aha_%28streaming_service.svg/1200px-Aha_%28streaming_service.svg.png" group-title="Aha", Manmadhan
+https://streaming-vod-aha.akamaized.net/content/pubcontent/vol/714F9D2F-1006-4DB2-AF79-8E438937DF37/1730110067186-output_cenc_dash.ism/index.mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=71c1ac07effc4319bb942b4c98a41632:7633d45f5e47f484b9e9792cad6c4856
+#EXTINF:-1 tvg-logo="https://image-resizer-cloud-api.akamaized.net/image/71C1AC07-EFFC-4319-BB94-2B4C98A41632/0-16x9.jpg?width=640" type="movie" group-logo="https://upload.wikimedia.org/wikipedia/en/thumb/d/da/Aha_%28streaming_service.svg/1200px-Aha_%28streaming_service.svg.png" group-title="Aha", Sila Nerangalil Sila Manidhargal
+https://streaming-vod-aha.akamaized.net/content/pubcontent/vol/71C1AC07-EFFC-4319-BB94-2B4C98A41632/1730096309283-output_cenc_dash.ism/index.mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=73315301f56e49db9dbfcc03d04cc99f:61eeaeed1e1a0f6fd584ac9d4090b82f
+#EXTINF:-1 tvg-logo="https://image-resizer-cloud-api.akamaized.net/image/73315301-F56E-49DB-9DBF-CC03D04CC99F/0-16x9.jpg?width=640" type="movie" group-logo="https://upload.wikimedia.org/wikipedia/en/thumb/d/da/Aha_%28streaming_service.svg/1200px-Aha_%28streaming_service.svg.png" group-title="Aha", Pudhupettai
+https://streaming-vod-aha.akamaized.net/content/pubcontent/vol/73315301-F56E-49DB-9DBF-CC03D04CC99F/1649734515075-output_cenc_dash.ism/index.mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
