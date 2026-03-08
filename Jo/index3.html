@@ -1,0 +1,604 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cricket News Point - Live TV</title>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <style>
+        :root {
+            --primary-bg: #0f172a;
+            --card-bg: #1e293b;
+            --text-main: #f1f5f9;
+            --text-muted: #94a3b8;
+            --accent: #0ea5e9; /* Sky blue accent */
+            --header-bg: rgba(15, 23, 42, 0.85);
+            --danger: #ef4444;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Outfit', sans-serif; }
+        
+        body {
+            background-color: var(--primary-bg);
+            /* Modern dark gradient background */
+            background-image: 
+                radial-gradient(circle at 15% 50%, rgba(14, 165, 233, 0.08), transparent 25%), 
+                radial-gradient(circle at 85% 30%, rgba(99, 102, 241, 0.08), transparent 25%);
+            color: var(--text-main);
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        /* --- Navbar --- */
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 5%;
+            background: var(--header-bg);
+            backdrop-filter: blur(12px);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            border-bottom: 1px solid rgba(255,255,255,0.08);
+            box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+        }
+
+        .logo-text {
+            font-size: 1.5rem;
+            font-weight: 700;
+            background: linear-gradient(to right, #fff, var(--accent));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        /* --- Search & Filter Area --- */
+        .controls-wrapper {
+            background: linear-gradient(180deg, rgba(30, 41, 59, 0.5) 0%, transparent 100%);
+            padding: 30px 5% 10px;
+        }
+
+        .controls-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            justify-content: center;
+            align-items: center;
+            max-width: 1200px;
+            margin: 0 auto;
+            width: 100%;
+        }
+
+        /* Modern Search Input */
+        .search-box-container {
+            position: relative;
+            flex-grow: 1;
+            max-width: 500px;
+            min-width: 280px;
+        }
+
+        .search-icon {
+            position: absolute;
+            left: 15px;
+            top: 50%;
+            transform: translateY(-50%);
+            color: var(--text-muted);
+            width: 18px;
+            height: 18px;
+        }
+
+        .search-input {
+            width: 100%;
+            padding: 14px 20px 14px 45px;
+            border-radius: 50px;
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255,255,255,0.1);
+            color: white;
+            font-size: 1rem;
+            outline: none;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+
+        .search-input:focus {
+            background: rgba(255, 255, 255, 0.1);
+            border-color: var(--accent);
+            box-shadow: 0 0 0 4px rgba(14, 165, 233, 0.15);
+        }
+
+        .search-input::placeholder { color: rgba(148, 163, 184, 0.6); }
+
+        /* Category Dropdown */
+        .category-wrapper { position: relative; }
+        
+        .category-select {
+            appearance: none;
+            background: var(--card-bg);
+            color: var(--text-main);
+            padding: 14px 40px 14px 20px;
+            border-radius: 50px;
+            border: 1px solid rgba(255,255,255,0.1);
+            font-size: 0.95rem;
+            cursor: pointer;
+            outline: none;
+            transition: border-color 0.3s;
+        }
+        .category-select:focus { border-color: var(--accent); }
+        .select-arrow {
+            position: absolute;
+            right: 15px;
+            top: 50%;
+            transform: translateY(-50%);
+            pointer-events: none;
+            font-size: 0.8rem;
+            color: var(--accent);
+        }
+
+        /* Data Info */
+        .data-info {
+            width: 100%;
+            text-align: center;
+            font-size: 0.8rem;
+            color: var(--text-muted);
+            margin-top: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 8px;
+        }
+        .pulse {
+            width: 8px; height: 8px;
+            background: #10b981;
+            border-radius: 50%;
+            box-shadow: 0 0 0 rgba(16, 185, 129, 0.4);
+            animation: pulse-animation 2s infinite;
+        }
+        @keyframes pulse-animation {
+            0% { box-shadow: 0 0 0 0 rgba(16, 185, 129, 0.7); }
+            70% { box-shadow: 0 0 0 6px rgba(16, 185, 129, 0); }
+            100% { box-shadow: 0 0 0 0 rgba(16, 185, 129, 0); }
+        }
+/* Feedback Button Styling */
+.feedback-btn {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background: linear-gradient(135deg, #0ea5e9, #6366f1);
+    color: white;
+    text-decoration: none;
+    padding: 8px 16px;
+    border-radius: 50px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(99, 102, 241, 0.2);
+}
+
+.feedback-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(99, 102, 241, 0.4);
+    filter: brightness(1.1);
+}
+
+.feedback-btn svg {
+    width: 18px;
+    height: 18px;
+    fill: none;
+    stroke: currentColor;
+    stroke-width: 2;
+}
+
+/* মোবাইল রেসপন্সিভনেস এর জন্য ছোট সমন্বয় */
+@media (max-width: 480px) {
+    .logo-text { font-size: 1.1rem; }
+    .feedback-btn span { display: none; } /* মোবাইলে শুধু আইকন দেখাবে */
+    .feedback-btn { padding: 8px; }
+}
+
+        /* --- Grid System --- */
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+            gap: 20px;
+            padding: 30px 5%;
+            max-width: 1400px;
+            margin: 0 auto;
+            width: 100%;
+        }
+
+        .card {
+            background: var(--card-bg);
+            border-radius: 16px;
+            padding: 15px;
+            cursor: pointer;
+            border: 1px solid rgba(255,255,255,0.05);
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .card::before {
+            content: '';
+            position: absolute;
+            top: 0; left: 0; width: 100%; height: 100%;
+            background: linear-gradient(45deg, transparent, rgba(255,255,255,0.03), transparent);
+            transform: translateX(-100%);
+            transition: 0.5s;
+        }
+
+        .card:hover {
+            transform: translateY(-5px) scale(1.02);
+            border-color: rgba(14, 165, 233, 0.5);
+            box-shadow: 0 10px 30px -10px rgba(0,0,0,0.5);
+        }
+        .card:hover::before { transform: translateX(100%); }
+
+        .card-img-wrapper {
+            height: 90px;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 12px;
+            background: rgba(0,0,0,0.2);
+            border-radius: 10px;
+            padding: 5px;
+        }
+
+        .card-img {
+            max-height: 100%;
+            max-width: 100%;
+            object-fit: contain;
+            filter: drop-shadow(0 2px 4px rgba(0,0,0,0.3));
+        }
+
+        .card-title {
+            font-size: 0.95rem;
+            font-weight: 500;
+            text-align: center;
+            line-height: 1.4;
+            color: #e2e8f0;
+        }
+
+        /* --- Loader --- */
+        .loader-container {
+            grid-column: 1 / -1;
+            display: flex;
+            justify-content: center;
+            padding: 50px;
+        }
+        .spinner {
+            width: 40px; height: 40px;
+            border: 4px solid rgba(255,255,255,0.1);
+            border-left-color: var(--accent);
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+        }
+        @keyframes spin { 100% { transform: rotate(360deg); } }
+
+        /* --- Footer --- */
+        .footer {
+            margin-top: auto;
+            background: #020617;
+            padding: 60px 20px 30px;
+            border-top: 1px solid rgba(255,255,255,0.05);
+            text-align: center;
+        }
+
+        .footer-brand {
+            font-size: 1.2rem;
+            font-weight: 700;
+            color: white;
+            margin-bottom: 20px;
+            display: inline-block;
+        }
+
+        .disclaimer-box {
+            background: rgba(239, 68, 68, 0.05); /* Slight red tint for warning */
+            border: 1px solid rgba(239, 68, 68, 0.2);
+            border-radius: 12px;
+            padding: 20px;
+            max-width: 900px;
+            margin: 0 auto 30px;
+            text-align: left;
+        }
+
+        .disclaimer-header {
+            color: #fca5a5;
+            font-weight: 600;
+            margin-bottom: 8px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .disclaimer-text {
+            font-size: 0.85rem;
+            color: #cbd5e1;
+            line-height: 1.6;
+            text-align: justify;
+        }
+
+        /* Legal Links Horizontal Layout */
+        .legal-links {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 25px; /* Spacing between buttons */
+            margin-bottom: 30px;
+        }
+
+        .legal-link {
+            color: var(--text-muted);
+            text-decoration: none;
+            font-size: 0.9rem;
+            font-weight: 500;
+            transition: color 0.2s;
+            position: relative;
+        }
+
+        .legal-link:hover { color: var(--accent); }
+        
+        /* Small separator dots between links (optional aesthetic) */
+        .legal-link:not(:last-child)::after {
+            content: '•';
+            position: absolute;
+            right: -15px;
+            color: rgba(255,255,255,0.2);
+            pointer-events: none;
+        }
+
+        .copyright {
+            font-size: 0.8rem;
+            color: #475569;
+            border-top: 1px solid rgba(255,255,255,0.05);
+            padding-top: 20px;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        /* Responsive */
+        @media (max-width: 600px) {
+            .navbar { padding: 15px 4%; }
+            .grid { grid-template-columns: repeat(auto-fill, minmax(130px, 1fr)); gap: 12px; padding: 20px 4%; }
+            .search-box-container { max-width: 100%; order: 2; margin-top: 10px; }
+            .category-wrapper { order: 1; flex-grow: 1; }
+            .legal-links { gap: 15px; }
+            .legal-link:not(:last-child)::after { content: ''; } /* Hide dots on mobile */
+        }
+    </style>
+</head>
+<body>
+
+<nav class="navbar">
+    <div class="logo-text">CRICKET NEWS POINT</div>
+    
+    <a href="/Feedback" class="feedback-btn" target="_blank">
+        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M7 8h10M7 12h4m1 8l-4-4H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-3l-4 4z"></path>
+        </svg>
+        <span>Feedback</span>
+    </a>
+</nav>
+
+    <div class="controls-wrapper">
+        <div class="controls-container">
+            
+            <div class="category-wrapper">
+                <select id="categorySelect" class="category-select" onchange="handleCategoryChange()">
+                    <option value="All">All Categories</option>
+                </select>
+                <div class="select-arrow"></div>
+            </div>
+
+            <div class="search-box-container">
+                <svg class="search-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
+                <input type="text" id="searchInput" class="search-input" placeholder="Search for channels, sports...">
+            </div>
+
+        </div>
+        <div class="data-info">
+            <div class="pulse"></div>
+            <span id="channelCount">Loading...</span> | Last Sync: <span id="updateTime">...</span>
+        </div>
+    </div>
+
+    <div class="grid" id="grid">
+        <div class="loader-container">
+            <div class="spinner"></div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-brand">Cricket News Point</div>
+        
+        <div class="disclaimer-box">
+            <div class="disclaimer-header">
+                <svg style="width:20px;height:20px" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"></path></svg>
+                IMPORTANT LEGAL DISCLAIMER
+            </div>
+            <div class="disclaimer-text">
+                <strong>Cricket News Point (Sayan)</strong> is strictly a media aggregation interface and search engine for publicly available content. 
+                We <strong>do not host, upload, broadcast, or archive</strong> any video streams, media files, or copyrighted content on our own servers. 
+                All channels and links displayed on this platform are automatically gathered from the open internet and third-party sources. 
+                <strong>Cricket News Point</strong> accepts no responsibility or liability for the content, legality, or accuracy of the streams provided by these external websites. 
+                If you are a copyright owner and have concerns, please contact the hosting provider of the specific stream directly.
+            </div>
+        </div>
+
+        <div class="legal-links">
+            <a href="/privacy-policy" class="legal-link">Privacy Policy</a>
+            <a href="/disclaimer" class="legal-link">Disclaimer</a>
+            <a href="/terms-of-service" class="legal-link">Terms of Service</a>
+        </div>
+
+        <div class="copyright">
+            &copy; <script>document.write(new Date().getFullYear())</script> Sayan • All Rights Reserved.
+        </div>
+    </footer>
+
+<script>
+      // 1. CONFIGURATION
+    const APP_CONFIG = {
+        DATA_URL: "https://allrounderid.pages.dev/api/jiotv2.json", 
+        PLAYER_URL: "https://cnpoint.pages.dev/JioTV/PLAY",
+        CACHE_KEY: "cnp_channel_data_v3",
+        TIME_KEY: "cnp_last_sync_time"
+    };
+
+    let allChannels = [];
+
+    document.addEventListener('DOMContentLoaded', () => {
+        initializeSystem();
+        document.getElementById('searchInput').addEventListener('input', (e) => {
+            filterData(e.target.value, document.getElementById('categorySelect').value);
+        });
+    });
+
+    async function initializeSystem() {
+        const cachedData = localStorage.getItem(APP_CONFIG.CACHE_KEY);
+        const cachedTime = localStorage.getItem(APP_CONFIG.TIME_KEY);
+        
+        // Load from cache first for instant UI response
+        if (cachedData) {
+            try {
+                allChannels = JSON.parse(cachedData);
+                renderApp(allChannels);
+                if (cachedTime) document.getElementById('updateTime').innerText = cachedTime;
+            } catch(e) { 
+                localStorage.removeItem(APP_CONFIG.CACHE_KEY); 
+            }
+        }
+        await fetchData();
+    }
+
+    // 2. DATA FETCHING & UNIX TIMESTAMP CONVERSION
+    async function fetchData() {
+        try {
+            const response = await fetch(`${APP_CONFIG.DATA_URL}?t=${Date.now()}`);
+            if (!response.ok) throw new Error(`HTTP Status: ${response.status}`);
+            
+            const newData = await response.json();
+            
+            if (newData && Array.isArray(newData)) {
+                const oldDataStr = localStorage.getItem(APP_CONFIG.CACHE_KEY);
+                const newDataStr = JSON.stringify(newData);
+
+                // Only update if data has actually changed
+                if (oldDataStr !== newDataStr) {
+                    allChannels = newData;
+
+                    // Convert Unix Timestamp from JSON (using first channel's last_update)
+                    let displayTime = "N/A";
+                    if (newData[0] && newData[0].last_update) {
+                        const unixTimestamp = parseInt(newData[0].last_update) * 1000;
+                        const dateObj = new Date(unixTimestamp);
+                        displayTime = dateObj.toLocaleString([], { 
+                            day: '2-digit', 
+                            month: 'short', 
+                            hour: '2-digit', 
+                            minute: '2-digit' 
+                        });
+                    }
+                    
+                    try {
+                        localStorage.setItem(APP_CONFIG.CACHE_KEY, newDataStr);
+                        localStorage.setItem(APP_CONFIG.TIME_KEY, displayTime);
+                    } catch (storageError) {
+                        console.warn("Storage full. Purging old data...");
+                        localStorage.clear(); 
+                        localStorage.setItem(APP_CONFIG.CACHE_KEY, newDataStr);
+                        localStorage.setItem(APP_CONFIG.TIME_KEY, displayTime);
+                    }
+
+                    renderApp(newData);
+                    document.getElementById('updateTime').innerText = displayTime;
+                }
+            }
+        } catch (error) {
+            console.error("Sync failed:", error);
+            if (allChannels.length === 0) {
+                document.getElementById('grid').innerHTML = `
+                    <div style="grid-column:1/-1;text-align:center;padding:40px;color:#ef4444;">
+                        <h3>Sync Connection Failed</h3>
+                        <p style="color:#94a3b8; font-size:0.9rem; margin:10px 0;">${error.message}</p>
+                        <button onclick="location.reload()" style="padding:10px 25px; border-radius:50px; background:#0ea5e9; color:white; border:none; cursor:pointer; font-weight:600;">Retry Sync</button>
+                    </div>`;
+            }
+        }
+    }
+
+    function renderApp(data) {
+        setupCategories(data);
+        filterData(document.getElementById('searchInput').value, document.getElementById('categorySelect').value);
+    }
+
+    function setupCategories(data) {
+        const genres = [...new Set(data.map(i => i.channel_genre).filter(g => g && g.trim() !== ""))].sort();
+        const select = document.getElementById('categorySelect');
+        const currentVal = select.value;
+        
+        select.innerHTML = '<option value="All">All Categories</option>';
+        genres.forEach(g => {
+            const opt = document.createElement('option');
+            opt.value = g; opt.innerText = g;
+            select.appendChild(opt);
+        });
+        
+        if (genres.includes(currentVal)) select.value = currentVal;
+    }
+
+    function handleCategoryChange() {
+        filterData(document.getElementById('searchInput').value, document.getElementById('categorySelect').value);
+    }
+
+    function filterData(searchTerm, category) {
+        const grid = document.getElementById('grid');
+        const term = searchTerm.toLowerCase().trim();
+        
+        const filtered = allChannels.filter(ch => {
+            const nameMatch = ch.channel_name && ch.channel_name.toLowerCase().includes(term);
+            const catMatch = category === 'All' || ch.channel_genre === category;
+            return nameMatch && catMatch;
+        });
+
+        document.getElementById('channelCount').innerText = `${filtered.length} Channels Live`;
+        grid.innerHTML = '';
+        
+        if (filtered.length === 0) {
+            grid.innerHTML = '<div style="grid-column:1/-1;text-align:center;padding:40px;color:#64748b;"><h3>No channels found.</h3></div>';
+            return;
+        }
+
+        const fragment = document.createDocumentFragment();
+        filtered.forEach(ch => {
+            const card = document.createElement('div');
+            card.className = 'card';
+            const logoSrc = ch.channel_logo || 'https://via.placeholder.com/150?text=TV';
+            
+            card.innerHTML = `
+                <div class="card-img-wrapper">
+                    <img src="${logoSrc}" class="card-img" alt="${ch.channel_name}" loading="lazy" onerror="this.src='https://placehold.co/100x100/1e293b/FFF?text=No+Img'">
+                </div>
+                <div class="card-title">${ch.channel_name}</div>`;
+                
+            card.onclick = () => { 
+                window.location.href = `${APP_CONFIG.PLAYER_URL}?id=${ch.channel_id}`; 
+            };
+            fragment.appendChild(card);
+        });
+        grid.appendChild(fragment);
+    }
+ </script>
+
+<!-- Cloudflare Pages Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "297b5d7f91df41e0ae4b36d6b10a1d89"}'></script><!-- Cloudflare Pages Analytics --></body>
+</html>
