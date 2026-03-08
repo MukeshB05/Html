@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Prime TV • Dreamly Info</title>
+  <meta name="referrer" content="no-referrer">
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/shaka-player/4.7.11/shaka-player.ui.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/shaka-player/4.7.11/controls.min.css" />
+
+  <style>
+    *{margin:0;padding:0;box-sizing:border-box}
+    html,body{width:100%;height:100%;background:#000;overflow:hidden;font-family:system-ui, -apple-system, sans-serif}
+
+    .shaka-video-container{
+      position:fixed;
+      inset:0;
+      background:#000;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+    }
+
+    video{
+      width:100%;
+      height:100%;
+      object-fit:contain;
+      background:#000;
+    }
+
+    .shaka-volume-bar-container,
+    .shaka-spinner-container { display:none!important; }
+
+    .custom-watermark{
+      position:absolute;
+      z-index:40;
+      pointer-events:none;
+      top:65%;
+      left:6%;
+      transform: translateY(-50%);
+      font-size:11px;
+      font-weight:600;
+      color: rgba(255, 255, 255, 0.12);
+    }
+
+    @media(max-width:700px){
+      .custom-watermark{ font-size:9px; top:60%; left:16%; }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="shaka-video-container" id="player-container">
+    <video id="video" autoplay playsinline preload="metadata"></video>
+    <div class="custom-watermark">‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ Dreamly Info ™</div>
+  </div>
+
+  <script>
+    /*
+ * Code Obfuscated by JS Obfuscator Pro
+ */
+eval(atob('ZG9jdW1lbnQuYWRkRXZlbnRMaXN0ZW5lcignRE9NQ29udGVudExvYWRlZCcsIGFzeW5jICgpID0+IHsKICAgICAgc2hha2EucG9seWZpbGwuaW5zdGFsbEFsbCgpOwogICAgICBpZiAoIXNoYWthLlBsYXllci5pc0Jyb3dzZXJTdXBwb3J0ZWQoKSkgcmV0dXJuOwoKICAgICAgY29uc3QgdmlkZW9FbCA9IGRvY3VtZW50LmdldEVsZW1lbnRCeUlkKCd2aWRlbycpOwogICAgICBjb25zdCBjb250YWluZXIgPSBkb2N1bWVudC5nZXRFbGVtZW50QnlJZCgncGxheWVyLWNvbnRhaW5lcicpOwogICAgICBjb25zdCB1cmxQYXJhbXMgPSBuZXcgVVJMU2VhcmNoUGFyYW1zKHdpbmRvdy5sb2NhdGlvbi5zZWFyY2gpOwogICAgICBjb25zdCByZXF1ZXN0ZWRJZCA9IHVybFBhcmFtcy5nZXQoJ2lkJykgfHwgdXJsUGFyYW1zLmdldCgnY2hhbm5lbCcpOwoKICAgICAgaWYgKCFyZXF1ZXN0ZWRJZCkgewogICAgICAgIGFsZXJ0KCJQbGVhc2UgcHJvdmlkZSBhIENoYW5uZWwgSUQgKGUuZy4sID9pZD0yMDQpIik7CiAgICAgICAgcmV0dXJuOwogICAgICB9CgogICAgICBsZXQgc3RyZWFtVXJsID0gIiI7CiAgICAgIGxldCBkcm1Db25maWcgPSB7IGNsZWFyS2V5czoge30gfTsKICAgICAgbGV0IGNvb2tpZUhlYWRlciA9ICIiOwoKICAgICAgdHJ5IHsKICAgICAgICBjb25zdCBbY2hSZXMsIGNvb2tSZXNdID0gYXdhaXQgUHJvbWlzZS5hbGwoWwogICAgICAgICAgZmV0Y2goJ2h0dHBzOi8vYWxscm91bmRlcmlkLnBhZ2VzLmRldi9hcGkvamlvdHYyLmpzb24nLCB7IGNhY2hlOiAnbm8tc3RvcmUnIH0pLAogICAgICAgICAgZmV0Y2goJ2h0dHBzOi8vcmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbS8yNHNwb3J0cy1uZXQvY29va2llLXVwZGF0ZXIvcmVmcy9oZWFkcy9tYWluL2Nvb2tpZS5qc29uJywgeyBjYWNoZTogJ25vLXN0b3JlJyB9KQogICAgICAgIF0pOwoKICAgICAgICBjb25zdCBhbGxDaGFubmVscyA9IGF3YWl0IGNoUmVzLmpzb24oKTsKICAgICAgICBjb25zdCBjb29raWVEYXRhID0gYXdhaXQgY29va1Jlcy5qc29uKCk7CgogICAgICAgIGNvbnN0IGNoYW5uZWwgPSBhbGxDaGFubmVscy5maW5kKGNoID0+IFN0cmluZyhjaC5jaGFubmVsX2lkIHx8IGNoLmlkKSA9PT0gU3RyaW5nKHJlcXVlc3RlZElkKSk7CgogICAgICAgIGlmIChjaGFubmVsKSB7CiAgICAgICAgICBzdHJlYW1VcmwgPSAoY2hhbm5lbC5jaGFubmVsX3VybCB8fCBjaGFubmVsLnVybCB8fCAiIikuc3BsaXQoJz8nKVswXTsKICAgICAgICAgIGlmIChjaGFubmVsLmtleUlkICYmIGNoYW5uZWwua2V5KSB7CiAgICAgICAgICAgIGRybUNvbmZpZy5jbGVhcktleXNbY2hhbm5lbC5rZXlJZF0gPSBjaGFubmVsLmtleTsKICAgICAgICAgIH0KICAgICAgICAgIGNvb2tpZUhlYWRlciA9IGNoYW5uZWwuY29va2llIHx8IGNvb2tpZURhdGEuY29va2llSGVhZGVyIHx8IGNvb2tpZURhdGEuY29va2llOwogICAgICAgICAgZG9jdW1lbnQudGl0bGUgPSBgJHtjaGFubmVsLmNoYW5uZWxfbmFtZSB8fCAiTGl2ZSJ9IC0gU2F5YW4gT2ZmaWNpYWxgOwogICAgICAgIH0gZWxzZSB7CiAgICAgICAgICBhbGVydCgiQ2hhbm5lbCBOb3QgRm91bmQhIik7CiAgICAgICAgICByZXR1cm47CiAgICAgICAgfQogICAgICB9IGNhdGNoIChlKSB7CiAgICAgICAgY29uc29sZS5lcnJvcigiRGF0YSBmZXRjaCBlcnJvciIpOwogICAgICB9CgogICAgICBjb25zdCBwbGF5ZXIgPSBuZXcgc2hha2EuUGxheWVyKCk7CiAgICAgIGF3YWl0IHBsYXllci5hdHRhY2godmlkZW9FbCk7CiAgICAgIGNvbnN0IHVpID0gbmV3IHNoYWthLnVpLk92ZXJsYXkocGxheWVyLCBjb250YWluZXIsIHZpZGVvRWwpOwoKICAgICAgdWkuY29uZmlndXJlKHsKICAgICAgICBjb250cm9sUGFuZWxFbGVtZW50czogWydwbGF5X3BhdXNlJywndGltZV9hbmRfZHVyYXRpb24nLCdzcGFjZXInLCdsYW5ndWFnZScsJ2NhcHRpb25zJywncGljdHVyZV9pbl9waWN0dXJlJywncXVhbGl0eScsJ2Z1bGxzY3JlZW4nXSwKICAgICAgICBzZWVrQmFyQ29sb3JzOiB7CiAgICAgICAgICBiYXNlOiAnd2hpdGUnLAogICAgICAgICAgYnVmZmVyZWQ6ICdyZWQnLAogICAgICAgICAgcGxheWVkOiAnZ3JlZW4nCiAgICAgICAgfQogICAgICB9KTsKCiAgICAgIHBsYXllci5jb25maWd1cmUoewogICAgICAgIGRybTogZHJtQ29uZmlnLAogICAgICAgIG1hbmlmZXN0OiB7CiAgICAgICAgICBkZWZhdWx0UHJlc2VudGF0aW9uRGVsYXk6IDUgCiAgICAgICAgfSwKICAgICAgICBzdHJlYW1pbmc6IHsKICAgICAgICAgIHNhZmVTZWVrT2Zmc2V0OiA1LAogICAgICAgICAgYnVmZmVyaW5nR29hbDogMTAsCiAgICAgICAgICByZWJ1ZmZlcmluZ0dvYWw6IDIsCiAgICAgICAgICBsb3dMYXRlbmN5TW9kZTogdHJ1ZQogICAgICAgIH0KICAgICAgfSk7CgogICAgICBwbGF5ZXIuZ2V0TmV0d29ya2luZ0VuZ2luZSgpLnJlZ2lzdGVyUmVxdWVzdEZpbHRlcigodHlwZSwgcmVxdWVzdCkgPT4gewogICAgICAgIHJlcXVlc3QuaGVhZGVyc1snUmVmZXJlciddID0gJ2h0dHBzOi8vd3d3Lmppb3R2LmNvbS8nOwogICAgICAgIHJlcXVlc3QuaGVhZGVyc1snVXNlci1BZ2VudCddID0gJ3BsYVl0di83LjEuNSAoTGludXg7QW5kcm9pZCAxMykgRXhvUGxheWVyTGliLzIuMTEuNic7CgogICAgICAgIGlmIChjb29raWVIZWFkZXIpIHsKICAgICAgICAgIHJlcXVlc3QuaGVhZGVyc1snQ29va2llJ10gPSBjb29raWVIZWFkZXI7CiAgICAgICAgICBpZiAoKHR5cGUgPT09IHNoYWthLm5ldC5OZXR3b3JraW5nRW5naW5lLlJlcXVlc3RUeXBlLk1BTklGRVNUIHx8IHR5cGUgPT09IHNoYWthLm5ldC5OZXR3b3JraW5nRW5naW5lLlJlcXVlc3RUeXBlLlNFR01FTlQpICYmICFyZXF1ZXN0LnVyaXNbMF0uaW5jbHVkZXMoJ19faGRuZWFfXycpKSB7CiAgICAgICAgICAgIGNvbnN0IHNlcCA9IHJlcXVlc3QudXJpc1swXS5pbmNsdWRlcygnPycpID8gJyYnIDogJz8nOwogICAgICAgICAgICByZXF1ZXN0LnVyaXNbMF0gKz0gc2VwICsgY29va2llSGVhZGVyOwogICAgICAgICAgfQogICAgICAgIH0KICAgICAgfSk7CgogICAgICB0cnkgewogICAgICAgIGF3YWl0IHBsYXllci5sb2FkKHN0cmVhbVVybCk7CiAgICAgICAgdmlkZW9FbC5wbGF5KCk7CiAgICAgIH0gY2F0Y2ggKGUpIHsKICAgICAgICBjb25zb2xlLmVycm9yKCJTdHJlYW0gbG9hZCBlcnJvciIsIGUpOwogICAgICB9CiAgICB9KTs='));
+  </script>
+<!-- Cloudflare Pages Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "297b5d7f91df41e0ae4b36d6b10a1d89"}'></script><!-- Cloudflare Pages Analytics --></body>
+</html>
