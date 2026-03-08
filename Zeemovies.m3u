@@ -1154,3 +1154,223 @@ https://mediacf-reg1.zee5.com/drm1/elemental/dash/TV_SHOWS/ZEE_TAMIL/Movies/Natp
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=4781ddb8220f4605824ea3cc16973644:a12f1a2bd66577911492c9402cbba997
 #EXTINF:-1 tvg-logo="" type="movie" group-title="zee5", Run
+https://mediacf-reg1.zee5.com/drm1/elemental/dash/ORIGINALS/MULTI_AUDIO/MOVIES/RUN_RTR1/RUN_RTR1_hi_467e1b881bbf9671031f11bcb1526893/manifest.mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=47053129b03b472bb69b6264406f8504:46b244b8f33fa5bc1e7c67deab2afb69
+#EXTINF:-1 tvg-logo="" type="movie" group-title="zee5", Mega Crocodile
+https://mediacloudfront.zee5.com/drm1/elemental/dash/MOVIES/MULTI_AUDIO/IOF/MEGA_CROCODILE/MEGA_CROCODILE_HD_11112022_zh_c88df7b8400eacbe6d06a21bbcd958e2/manifest.mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=484f92b5648c44b29780f322c012ebad:a6fbe26115a84257f4c6b0e02c0dd298
+#EXTINF:-1 tvg-logo="" type="movie" group-title="zee5", Manal Kayiru 2
+https://mediacf-reg1.zee5.com/drm1/elemental/dash/ON_AIR/DOMESTIC/ZEE_TAMIL/Movies/Manal_kayiru_2_Tamil_Movie_ta_e963a75f8ab9949d40cd2294eb2aa441/manifest.mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=4934a4796bb346728165ff73f548be0e:700786ace310ff438b29cf328d641368
+#EXTINF:-1 tvg-logo="" type="movie" group-title="zee5", Fearless Kungfu King
+https://mediacloudfront.zee5.com/drm1/elemental/dash/MOVIES/MULTI_AUDIO/IOF/FEARLESS_KUNG_FU_KING/FEARLESS_KUNG_FU_KING_HD_16122022_hi_093fa409fb9a49384c91afa1fa1f19cf/manifest.mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=49c8662daf984fd6ae0860eb665adf53:66880bdb21c0956337d36640068d0f42
+#EXTINF:-1 tvg-logo="" type="movie" group-title="zee5", King Of Serpent
+https://mediacloudfront.zee5.com/drm1/elemental/dash/MOVIES/MULTI_AUDIO/IOF/KING_OF_SERPENT/KING_OF_SERPENT_HD_22112022_zh_339d2ac891ee941a887ade3100be8819/manifest.mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=4d44e3b02dcb41d9af4d2111fa396eed:6594c9d0b80ec770f871a435e6f8722e
+#EXTINF:-1 tvg-logo="" type="movie" group-title="zee5", Varenda Maduraikku
+https://mediacloudfront.zee5.com/drm1/elemental/dash/Movies/Drama/VARENDA_MADURAIKKU_MOVIE_TA_RTR_a972de2c7a34931f372f9aedde3066a1/manifest.mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=4e2a84b57ed445ccb18ad0e194d9a74a:1bf40596ebfb3d9dfc84d89e7493b937
+#EXTINF:-1 tvg-logo="" type="movie" group-title="zee5", Dhanusu Raasi Neyargale
+https://zee5vod.akamaized.net/drm1/elemental/dash/ON_AIR/DOMESTIC/ZEE_TAMIL/Movies/Rev_Dhahusu_Raasi_Neyargale_Tamil_Movie_ta_174f7ddbfcc925d7e34987bf85d440c2/manifest.mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=5379de28b8c64b4d8d4d3a03789431d8:53f2392b61b5bdf6ea397bef3366bf22
+#EXTINF:-1 tvg-logo="" type="movie" group-title="zee5", Love Story
+https://mediacf-reg1.zee5.com/drm1/elemental/dash/Movies/Drama/Love_Story_Tamil_Movie_RTR_da7190ad5eed573bc470c23713acbb5e/manifest.mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=51aa616fed8b43f0bf42619c18ee08b9:60a02f2c4de90b4ab77a0e38a0fe7fd5
+#EXTINF:-1 tvg-logo="" type="movie" group-title="zee5", Biskoth
+https://zee5vod.akamaized.net/drm1/elemental/dash/Trailers/BISKOTH_TAMIL_MOVIE_R1_19022021_ta_0fb26b25e33829ecb3b60fd698590274/manifest.mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=525d8328885d4d3ab202e0b1968bafbb:d3865f851b973a5925f7fb1904b7d17b
+#EXTINF:-1 tvg-logo="" type="movie" group-title="zee5", 6 Candles
+https://zee5vod.akamaized.net/drm1/elemental/dash/Movies/Drama/6_Candles_RTR_2acb1935c28f0125ec8d9f10865e41b2/manifest.mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=567db98fe9234778b763e04a69714a6f:d04d28446df7457afa536412a81eeaa8
+#EXTINF:-1 tvg-logo="" type="movie" group-title="zee5", Ainthu Ainthu Ainthu
+https://mediacloudfront.zee5.com/drm1/elemental/dash/Movies/Drama/AINTHU_AINTHU_AINTHU_MOVIE_RTR_ta_9b1676608de373727804a4ccae469104/manifest.mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=5b776ea3edae44fba7bdcdf9c3e821f7:ded3d6196890f0ffebe33cb2da4f00d0
+#EXTINF:-1 tvg-logo="" type="movie" group-title="zee5", Oru Kidayin Karunai Manu
+https://mediacf-reg1.zee5.com/drm1/elemental/dash/Movies/Drama/Oru_Kidayin_Karunai_Manu_Tamil_Movie_Rev2RTR_ta_9f6ad3aa8fb18f71a2b5d9e416991de8/manifest.mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=5b9fcb5e961b4852a925ca1f4cfbe1ac:a2edf026af2189b175a546a084dd83e8
+#EXTINF:-1 tvg-logo="" type="movie" group-title="zee5", Chakkara Vyugam
+https://mediacloudfront.zee5.com/drm1/elemental/dash/Movies/Drama/CHAKRA_VIYUHAM_MOVIE_RTR_ta_8c4ba2fdd1a9f372696297336a92d162/manifest.mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=5a1dbb3c9f6c47a0a0a6a449f037b65f:954a224175af6cd148af8de3af1d778e
+#EXTINF:-1 tvg-logo="" type="movie" group-title="zee5", Anandham Vilayadum Veedu
+https://mediacf-reg1.zee5.com/drm1/elemental/dash/TV_SHOWS/ZEE_TAMIL/Movies/Anandham_Vilayadum_Veedu_Tamil_Movie_With_CBFC_f218e3579b80ec62ab03b64d1f61b531/manifest.mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=5a1e0ea84c62424492f813f89c885372:084a1b5491e62e267fa47c6e2b70790e
+#EXTINF:-1 tvg-logo="" type="movie" group-title="zee5", Chatur Singh Two Star
+https://mediacloudfront.zee5.com/drm1/elemental/dash/ORIGINALS/MULTI_AUDIO/MOVIES/CHATUR_SINGH_TWO_STAR_RTR/CHATUR_SINGH_TWO_STAR_RTR_hi_0f2bf30a7a2bdb0ae34d3ecbe5cf2ce8/manifest.mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=5c5284ba19944237b67aca7f7528112c:e6535d3a979ecb70e24615446835212d
+#EXTINF:-1 tvg-logo="" type="movie" group-title="zee5", August 1
+https://mediacf-reg1.zee5.com/drm1/elemental/dash/ON_AIR/DOMESTIC/ZEE_TAMIL/Movies/August1_Tamil_Movie_ta_0ececf8b19784f045548e9e8de50a374/manifest.mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=5ecd3b335894480ab07f0105dd35db85:5154b219a0ca6d6aff677b4fe616aae7
+#EXTINF:-1 tvg-logo="" type="movie" group-title="zee5", Yagavarayinum Naa Kaakka
+https://mediacf-reg1.zee5.com/drm1/elemental/dash/Movies/Action/YAGAVARAYINUM_NAA_KAAKKA_Tamil_Movie_HD_RTR_e2ad33364040c77898f0b04487770db7/manifest.mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=616c126539dd410c80458bff1cfb13d8:14aa3f809e31ea9d792d3897608c6e98
+#EXTINF:-1 tvg-logo="" type="movie" group-title="zee5", Paagan
+https://zee5vod.akamaized.net/drm1/elemental/dash/Movies/Drama/PAAGAN_MOVIE_RTR_ta_a52b01d2c6e8e409cc619405732fdec2/manifest.mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=6323dd6d7ea34452a823cb7ad7386973:85155130399ffd1be5bba379bcd9bde4
+#EXTINF:-1 tvg-logo="" type="movie" group-title="zee5", Kalavani 2
+https://zee5vod.akamaized.net/drm1/elemental/dash/Movies/Drama/Kalavani_2_Movie_26112020_RTR_ta_19ff9d2bc748d0a731f93d415945e902/manifest.mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=674722227604415cafa8530c278cd73b:d93d02a238b4d357d2c9e7d7a6ce8c8b
+#EXTINF:-1 tvg-logo="" type="movie" group-title="zee5", Makkalukkaga
+https://mediacf-reg1.zee5.com/drm1/elemental/dash/Movies/Drama/Makkalukkaga_Tamil_Movie_RTR_44485788d66082b2de6725321ba8f671/manifest.mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=67b1457192ff45b3be8499ab9b37746d:abdbbb97801e9229fee4eee7902fffae
+#EXTINF:-1 tvg-logo="" type="movie" group-title="zee5", Uyarndha Manithan
+https://mediacf-reg1.zee5.com/drm1/elemental/dash/TV_SHOWS/ZEE_TAMIL/Movies/Uyarandha_Manithan_Tamil_Movie_ta_8e27a7e87244501f538e97845eedd10b/manifest.mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=662684d1de2c4426ac2deb0a6f38eb44:775317cae23bea2fac485a97d68d3058
+#EXTINF:-1 tvg-logo="" type="movie" group-title="zee5", Matchless Mulan
+https://mediacf-reg1.zee5.com/drm1/elemental/dash/MOVIES/MULTI_AUDIO/IOF/MATCHLESS_MULAN/MATCHLESS_MULAN_HD_22112022_zh_051e8ee109b0f5932f1a4e05b832d580/manifest.mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=698b673cc1ee4b74b29f51feee8de7ff:5016bdd27e88e6485ddae0ddb818ef52
+#EXTINF:-1 tvg-logo="" type="movie" group-title="zee5", Operation Parindey
+https://mediacf-reg1.zee5.com/drm1/elemental/dash/ORIGINALS/ACTION/OC_MOVIE_CHANGE_IN_AR/OPERATION_PARINDEY/OPERATION_PARINDEY_ZEE5UHD_TAMIL_UA16_ta_7c96eedfd6798d879ff0fb28a23224d5/manifest.mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=6f91f9b769434cbab74aec40ec731eb7:cf283fdedb8e354b074b6045e88655e7
+#EXTINF:-1 tvg-logo="" type="movie" group-title="zee5", Oh My Kadavule
+https://mediacloudfront.zee5.com/drm1/elemental/dash/TV_SHOWS/ZEE_TAMIL/Movies/REVISED_Oh_My_Kadavule_Tamil_Movie_With_CBFC_ta_6fd95b1a15beb334c64e42bf0e870ec9/manifest.mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=6cef0b22afff4e8aa4585e5ca24c9b1a:c1fb5257350195c8b0e8c9f3881b46a7
+#EXTINF:-1 tvg-logo="" type="movie" group-title="zee5", Insan
+https://mediacf-reg1.zee5.com/drm1/elemental/dash/ORIGINALS/MULTI_AUDIO/MOVIES/INSAN_RTR1/INSAN_RTR1_hi_77481a19f0d462dba609686e6e8be8bb/manifest.mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=6e092d6bfa4e4c3c83535b0c8c2bc85d:66eab2102fcb1999c4ed5fbd8479cde9
+#EXTINF:-1 tvg-logo="" type="movie" group-title="zee5", The Lovely Mrs Mookherjee
+https://zee5vod.akamaized.net/drm1/elemental/dash/ORIGINALS/ACTION/OC_MOVIE_CHANGE_IN_AR/THE_LOVELY_MRS_MUKHERJEE/THE_LOVELY_MRS_MUKHERJEE_ZEE5UHD_TAMIL_MOVIE_UA16_ta_578811ef991a8b0e5838c64296b893c3/manifest.mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=71fd95568f734726925659114d9e3360:f2984ab2abf16fdfc6cbf0249b527468
+#EXTINF:-1 tvg-logo="" type="movie" group-title="zee5", Porveeran
+https://zee5vod.akamaized.net/drm1/elemental/dash/Movies/Drama/Porveeran_Tamil_DUB_Movie_With_CBFC_24092021_Rev2RTR_ta_c3d67230db20394185e98b56eed6c95b/manifest.mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=72403831c5ef4802a0aee84f4f0a5e30:8d039e975b530b97c283f0e6e3b0a0f8
+#EXTINF:-1 tvg-logo="" type="movie" group-title="zee5", Shakti The Power
+https://mediacloudfront.zee5.com/drm1/elemental/dash/ORIGINALS/MULTI_AUDIO/MOVIES/SHAKTI_THE_POWER_RTR1/SHAKTI_THE_POWER_RTR1_hi_ddc5b2fe8d9000aaa57ad4429bfc5080/manifest.mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=730ff0915e774b7db512836eb2d6e9c7:df5af7c07d79eaff817cd707d21b9e41
+#EXTINF:-1 tvg-logo="" type="movie" group-title="zee5", Maneater
+https://zee5vod.akamaized.net/drm1/elemental/dash/MOVIES/MULTI_AUDIO/SUPERFINE_FILMS/MANEATER/MANEATER_HD_13012023_en_5cdcdde04ff0227ddb55e53e95993fd0/manifest.mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=77e5b23f998a48a3b1c74d8aaaf71d3f:b1e512f0de0b7668e47c506d4743c8a7
+#EXTINF:-1 tvg-logo="" type="movie" group-title="zee5", The Sholay Girl
+https://zee5vod.akamaized.net/drm1/elemental/dash/ORIGINALS/ACTION/OC_MOVIE_CHANGE_IN_AR/THE_SHOLAY_GIRL/BQC_THE_SHOLAY_GIRL_ZEE5HD_TAMIL_MOVIE_UA13_ta_cc1b69c5642e2694488c4162e4bfe2dd/manifest.mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=75f524a0f24a4815b47cbe88719bd55e:a493fd971d08eaced6af3b3daadb8935
+#EXTINF:-1 tvg-logo="" type="movie" group-title="zee5", Soodhu Kavvum
+https://mediacloudfront.zee5.com/drm1/elemental/dash/Movies/Drama/Soodhu_Kavvum_REV_RTR_16984eecefa947a253ee450f3d0382df/manifest.mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=7847c430981a4496b6a3c1d977d70f00:2990bccc889f55e10b7366014e2536c7
+#EXTINF:-1 tvg-logo="" type="movie" group-title="zee5", Taana
+https://zee5vod.akamaized.net/drm1/elemental/dash/ON_AIR/DOMESTIC/ZEE_TAMIL/Movies/Taana_Tamil_Movie_ta_8c075a082922601726a015c34e4692ac/manifest.mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=7fefc086231143bc9e57122fa974e420:9c723d02f33d1289d24d1401f329a73c
+#EXTINF:-1 tvg-logo="" type="movie" group-title="zee5", Meyaadha Maan
+https://mediacf-reg1.zee5.com/drm1/elemental/dash/Movies/Action/MEYATHA_MANN_Tamil_Movie_RTR_NONE_06f5a10d3173a2a7ee1b33de06d90cd0/manifest.mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=7cc64a8e8a31407b9bbb21c32c9a9dc8:eca4fca6ee86bfc841770024c487bbac
+#EXTINF:-1 tvg-logo="" type="movie" group-title="zee5", Right Yaaa Wrong
+https://mediacf-reg1.zee5.com/drm1/elemental/dash/ORIGINALS/MULTI_AUDIO/MOVIES/RIGHT_YA_WRONG_RTR/RIGHT_YA_WRONG_RTR_hi_f9b2c1b586c45fe2be43c37fcce5a647/manifest.mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=8386632f6f64441598184ad20ff827f5:717514c0b2c9166cbdfa1ccd06531a25
+#EXTINF:-1 tvg-logo="" type="movie" group-title="zee5", Bamfaad
+https://zee5vod.akamaized.net/drm1/elemental/dash/Movies/Drama/BAMFAAD_TAMIL_MOVIE_Rev2RTR_ta_cf581be4fc97c8131d3a5bef421183a9/manifest.mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=80b9616bb3c144399c32857c20dbfec8:52b1e6ab89c2a9f35069dca3eff81e3a
+#EXTINF:-1 tvg-logo="" type="movie" group-title="zee5", The Shaukeens
+https://mediacloudfront.zee5.com/drm1/elemental/dash/ORIGINALS/MULTI_AUDIO/MOVIES/THE_SHAUKEEN_RTR1/THE_SHAUKEEN_RTR1_hi_3f8d0f0d696493cfe3f63f967fca59d2/manifest.mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=82a094194c304ec4b6af407573145678:743addb9660cd25b27288d16a02cadbb
+#EXTINF:-1 tvg-logo="" type="movie" group-title="zee5", Haywire
+https://mediacf-reg1.zee5.com/drm1/elemental/dash/MOVIES/MULTI_AUDIO/SUPERFINE_FILMS/HEYWIRE/HEYWIRE_HD_29122022_en_2c2fbf8e4754c73d696bad550bdc98c4/manifest.mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=833bac4835b2473f99db170d4631bab7:cfb1eaca406d2faea04623bcef9ab636
+#EXTINF:-1 tvg-logo="" type="movie" group-title="zee5", Chennai Palani Mars
+https://zee5vod.akamaized.net/drm1/elemental/dash/ON_AIR/DOMESTIC/BIG_GANGA/CHENNAI_PALANI_MAAS_Tamil_Movie_ta_7cdbf3f7201b3ac139535f9f5272ee1e/manifest.mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=87f246d594f64676ae1d4a3b31510b4b:274a60b8f99003158cb2f303295c07d4
+#EXTINF:-1 tvg-logo="" type="movie" group-title="zee5", Sethupathi
+https://mediacf-reg1.zee5.com/drm1/elemental/dash/ON_AIR/DOMESTIC/ZEE_TAMIL/September2020/08092020/Movies/Sethupathi_Tamil_Movie_ta_121f4d29f1d1b5d8579ff1600e8d9128/manifest.mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=8782da6a909e42448e3a8a389fa1753b:e416df9000e089edf89e8f38733cb531
+#EXTINF:-1 tvg-logo="" type="movie" group-title="zee5", Naan Sirithal
+https://mediacloudfront.zee5.com/drm1/elemental/dash/ON_AIR/DOMESTIC/ZEE_TAMIL/April2020/02042020/Movie/Naan_Sirithal_Tamil_Movie_ta_84e1a525df4487da5fb434d33c4ff02f/manifest.mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=8b89891258cf4e2caef884cb18750a07:0a5d5a6456dfe40cbbfebc6e475d329f
+#EXTINF:-1 tvg-logo="" type="movie" group-title="zee5", Socha Na Tha
+https://mediacf-reg1.zee5.com/drm1/elemental/dash/ORIGINALS/MULTI_AUDIO/MOVIES/SOCHA_NA_THA_RTR1/SOCHA_NA_THA_RTR1_hi_d9c7dfb01a41d8a6dece2e257231a791/manifest.mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=8cb1d1d2c51c49cd959e6aa4cf7392e7:b6aca8f3f619877fa07490a17de932ed
+#EXTINF:-1 tvg-logo="" type="movie" group-title="zee5", Kaadan
+https://mediacloudfront.zee5.com/drm1/elemental/dash/Movies/Drama/Kaadan_Tamil_Movie_With_CBFC_Rev2RTR_ta_45178bda2e41b36e8576191213188fad/manifest.mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=8ec682799a1246b08bd8a846fa576b8e:86d4db61802482df092914cd2d921bf7
+#EXTINF:-1 tvg-logo="" type="movie" group-title="zee5", Bulandi
+https://zee5vod.akamaized.net/drm1/elemental/dash/ORIGINALS/MULTI_AUDIO/MOVIES/BULANDI_RTR1/BULANDI_RTR1_hi_6ccb4c315150ae3a4c1afd5ab4b312d3/manifest.mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=8f105a477a664f409a078c48272e3193:6f262e49030944d27753a57c95dc5959
+#EXTINF:-1 tvg-logo="" type="movie" group-title="zee5", Mapla Singam
+https://mediacloudfront.zee5.com/drm1/elemental/dash/Movies/Drama/MAAPLA_SINGAM_MOVIE_RTR_ta_68bddc2a9ec9f1d52741ee555b96777d/manifest.mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=93ef87e31e8a4c1ba5844ce969549d13:3cbc8081e91e17536e43fe6c2748ec08
+#EXTINF:-1 tvg-logo="" type="movie" group-title="zee5", Naalu Aaru Anju
+https://mediacf-reg1.zee5.com/drm1/elemental/dash/ON_AIR/DOMESTIC/ZEE_TAMIL/Feb2020/04022020/Movie/Naalu_Aaru_Anju_73b882f52310cf1fcc1ebd39f647a04b/manifest.mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=939b6c4628b94abb8633c8f6a7fc5a3b:9f5ec76c9645f8c3db6ff66641eeff33
+#EXTINF:-1 tvg-logo="" type="movie" group-title="zee5", Sniper
+https://zee5vod.akamaized.net/drm1/elemental/dash/MOVIES/MULTI_AUDIO/IOF/SNIPER/SNIPER_HD_16122022_hi_a40225824db559a22fcf21262b79dd05/manifest.mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=93b75726442c478f9715db3a039c9679:a62bd1a706023d03b79f6becb6226d90
+#EXTINF:-1 tvg-logo="" type="movie" group-title="zee5", Body Of Sin
+https://zee5vod.akamaized.net/drm1/elemental/dash/MOVIES/MULTI_AUDIO/STAR_FILMS/BODY_OF_SIN/BODY_OF_SIN_HD_18012023_hi_524c4be4b8dd137077d90590a7e0e475/manifest.mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=93092efa94c84d86a82150e3aeb0a036:d216a636b4b7843a0a89c4c98bcefcaf
+#EXTINF:-1 tvg-logo="" type="movie" group-title="zee5", Ab Tumhare Hawale Watan Sathiyo
+https://zee5vod.akamaized.net/drm1/elemental/dash/ORIGINALS/MULTI_AUDIO/MOVIES/AB_TUMAHARE_HAWALE_VATAN_SATHIYO_RTR1/AB_TUMAHARE_HAWALE_VATAN_SATHIYO_RTR1_hi_0c7771b434564872c3ff0dcd155b3b22/manifest.mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=932cfdc589ed41ec964f80ff2bd6470f:3bae0c169d1ce2852a1d4b955ad18b8b
+#EXTINF:-1 tvg-logo="" type="movie" group-title="zee5", God Father
+https://zee5vod.akamaized.net/drm1/elemental/dash/Movies/Drama/Thumbnail_List/Godfather_Tamil_Movie_Rev1RTR_ta_303a3174edab93089a624d47d785fb14/manifest.mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=9c19f3fb028e44c6a9590ea8abbc2a8a:596b994f684455cf9655e288c7b47b5e
+#EXTINF:-1 tvg-logo="" type="movie" group-title="zee5", Jyo Achutananda
+https://zee5vod.akamaized.net/drm1/elemental/dash/Movies/Drama/Jyo_Achyutananda_2016_Tamil_Movie_With_CBFC_06082021_Rev2RTR_ta_da48b7cb2d55b243b14486432903107e/manifest.mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=9caf5ad73ef1426b9b58e71888dace00:422abf5656c446e41b790ad746da295a
+#EXTINF:-1 tvg-logo="" type="movie" group-title="zee5", Jaggubhai
+https://zee5vod.akamaized.net/drm1/elemental/dash/Movies/Action/Jaggubhai_Tamil_Movie_RTR_a638b6affe67418d98726691a64742ae/manifest.mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=a748f949348e48038cc5486191175e63:56f7efec00156e03bc7c1694d42aa423
+#EXTINF:-1 tvg-logo="" type="movie" group-title="zee5", Pitaah
+https://zee5vod.akamaized.net/drm1/elemental/dash/ORIGINALS/MULTI_AUDIO/MOVIES/PITAAH_RTR/PITAAH_RTR_hi_05fded3e520c7017838017531a34f152/manifest.mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=a7565b60b491400d8f77bb6036604467:3f7d191931091680d1537d5a6c57aee5
+#EXTINF:-1 tvg-logo="" type="movie" group-title="zee5", Black Hawk Down
+https://mediacloudfront.zee5.com/drm1/elemental/dash/TRAILERS/DOMESTIC/PROMOS/ENGLISH/2022/SEPT_2022/16/BLACK_HAWK_DOWN_PF_16092022_en_59e46332e9c0b4f5aac6ac20ee9fd7c0/manifest-mid.mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=a7843699263a46af9b07a7746d209aff:55215209731f41a6668d53a4ad826f86
+#EXTINF:-1 tvg-logo="" type="movie" group-title="zee5", Saamida
+https://mediacloudfront.zee5.com/drm1/elemental/dash/Movies/Drama/SAMEDAA_MOVIE_RTR_ta_0455389737c6b1dfc19cc80175b95443/manifest.mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=a459ab8ce17b4d4fa1baf58aeec326a7:9bf79a4e4af59779f014780de0cf3ca3
+#EXTINF:-1 tvg-logo="" type="movie" group-title="zee5", Uncaged
+https://mediacf-reg1.zee5.com/drm1/elemental/dash/MOVIES/MULTI_AUDIO/IOF/UNCAGED/UNCAGED_04112022_en_019b811e81c1044660319cd0dcdb8c34/manifest.mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=a5d5befadc3d4a4680934ccb905b9c37:0f7a0a70455fbde9bfdbce243930f01c
+#EXTINF:-1 tvg-logo="" type="movie" group-title="zee5", Salim
