@@ -1,0 +1,957 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+<meta name="viewport" content="width=1200">
+    <title>IPL Live Streaming - Coming Soon</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <script type="importmap">
+    {
+        "imports": {
+            "three": "https://unpkg.com/three@0.160.0/build/three.module.js",
+            "three/addons/": "https://unpkg.com/three@0.160.0/examples/jsm/"
+        }
+    }
+    </script>
+    
+    <style>
+        :root {
+            --bg-primary: #080c14;
+            --bg-secondary: #0d1220;
+            --fg: #ffffff;
+            --fg-muted: #9ca3af;
+            --accent-orange: #ff5722;
+            --accent-gold: #ffd700;
+            --accent-teal: #00e5c7;
+            --card-bg: rgba(13, 18, 32, 0.8);
+            --border-subtle: rgba(255, 255, 255, 0.08);
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Inter', sans-serif;
+            background: var(--bg-primary);
+            color: var(--fg);
+            overflow-x: hidden;
+            min-height: 100vh;
+        }
+        
+        .font-display {
+            font-family: 'Bebas Neue', sans-serif;
+        }
+        
+        .bg-layer {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 0;
+        }
+        
+        .bg-gradient {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            background: 
+                radial-gradient(ellipse at 0% 0%, rgba(255, 87, 34, 0.25) 0%, transparent 50%),
+                radial-gradient(ellipse at 100% 100%, rgba(0, 229, 199, 0.15) 0%, transparent 50%),
+                radial-gradient(ellipse at 50% 0%, rgba(255, 215, 0, 0.12) 0%, transparent 40%),
+                linear-gradient(180deg, var(--bg-primary) 0%, var(--bg-secondary) 100%);
+        }
+        
+        .bg-pattern {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.02'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+        }
+        
+        /* Background Images */
+        .bg-images {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+        }
+        
+        .cricket-img {
+            position: absolute;
+            background-size: cover;
+            background-position: center;
+            opacity: 0.12;
+            filter: saturate(0.7);
+            transition: opacity 0.5s ease;
+        }
+        
+        .img-left {
+            left: 0;
+            top: 0;
+            width: 35%;
+            height: 100%;
+            background-image: url('https://images.unsplash.com/photo-1531415074968-036ba1b575da?w=600&q=80');
+            mask-image: linear-gradient(to right, rgba(0,0,0,0.5) 0%, transparent 100%);
+            -webkit-mask-image: linear-gradient(to right, rgba(0,0,0,0.5) 0%, transparent 100%);
+        }
+        
+        .img-right {
+            right: 0;
+            top: 0;
+            width: 35%;
+            height: 100%;
+            background-image: url('https://images.unsplash.com/photo-1540747913346-19e32dc3e97e?w=600&q=80');
+            mask-image: linear-gradient(to left, rgba(0,0,0,0.5) 0%, transparent 100%);
+            -webkit-mask-image: linear-gradient(to left, rgba(0,0,0,0.5) 0%, transparent 100%);
+        }
+        
+        .img-center {
+            left: 50%;
+            transform: translateX(-50%);
+            bottom: 0;
+            width: 50%;
+            height: 60%;
+            background-image: url('https://images.unsplash.com/photo-1580674684081-7617fbf3d745?w=800&q=80');
+            mask-image: linear-gradient(to top, rgba(0,0,0,0.3) 0%, transparent 100%);
+            -webkit-mask-image: linear-gradient(to top, rgba(0,0,0,0.3) 0%, transparent 100%);
+            opacity: 0.08;
+        }
+        
+        /* Stadium Lights */
+        .stadium-lights {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            pointer-events: none;
+        }
+        
+        .light-spot {
+            position: absolute;
+            border-radius: 50%;
+            filter: blur(80px);
+            animation: lightPulse 4s ease-in-out infinite;
+        }
+        
+        .light-1 {
+            top: -10%;
+            left: 20%;
+            width: 400px;
+            height: 400px;
+            background: rgba(255, 215, 0, 0.2);
+        }
+        
+        .light-2 {
+            top: -5%;
+            right: 20%;
+            width: 350px;
+            height: 350px;
+            background: rgba(255, 87, 34, 0.2);
+            animation-delay: -2s;
+        }
+        
+        .light-3 {
+            bottom: 10%;
+            left: 30%;
+            width: 300px;
+            height: 300px;
+            background: rgba(0, 229, 199, 0.12);
+            animation-delay: -1s;
+        }
+        
+        @keyframes lightPulse {
+            0%, 100% { opacity: 0.6; transform: scale(1); }
+            50% { opacity: 1; transform: scale(1.1); }
+        }
+        
+        /* Light Beams */
+        .light-beams {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+        }
+        
+        .beam {
+            position: absolute;
+            width: 3px;
+            height: 100%;
+            background: linear-gradient(180deg, rgba(255, 215, 0, 0.35) 0%, transparent 70%);
+            filter: blur(2px);
+            animation: beamSway 6s ease-in-out infinite;
+        }
+        
+        .beam:nth-child(1) { left: 10%; animation-delay: 0s; }
+        .beam:nth-child(2) { left: 25%; animation-delay: -1.5s; opacity: 0.5; }
+        .beam:nth-child(3) { right: 10%; animation-delay: -3s; }
+        .beam:nth-child(4) { right: 25%; animation-delay: -4.5s; opacity: 0.5; }
+        
+        @keyframes beamSway {
+            0%, 100% { transform: rotate(-20deg) translateY(-20%); }
+            50% { transform: rotate(20deg) translateY(-20%); }
+        }
+        
+        /* Player Silhouettes */
+        .players-bg {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+        }
+        
+        .player-silhouette {
+            position: absolute;
+            bottom: 0;
+            opacity: 0.06;
+            filter: drop-shadow(0 0 50px rgba(255, 87, 34, 0.4));
+        }
+        
+        .player-left {
+            left: 8%;
+            height: 55%;
+            animation: playerFloat 8s ease-in-out infinite;
+        }
+        
+        .player-right {
+            right: 8%;
+            height: 50%;
+            animation: playerFloat 10s ease-in-out infinite reverse;
+        }
+        
+        .player-center {
+            left: 50%;
+            transform: translateX(-50%);
+            height: 65%;
+            opacity: 0.04;
+            animation: playerFloat 12s ease-in-out infinite;
+        }
+        
+        @keyframes playerFloat {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-15px); }
+        }
+        
+        #canvas-container {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 1;
+        }
+        
+        .content {
+            position: relative;
+            z-index: 10;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 2rem;
+        }
+        
+        .status-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.75rem;
+            padding: 0.75rem 1.5rem;
+            background: rgba(255, 87, 34, 0.12);
+            border: 1px solid rgba(255, 87, 34, 0.35);
+            border-radius: 100px;
+            backdrop-filter: blur(20px);
+            margin-bottom: 2rem;
+            animation: fadeSlideDown 0.8s ease-out;
+        }
+        
+        .badge-dot {
+            width: 10px;
+            height: 10px;
+            background: var(--accent-orange);
+            border-radius: 50%;
+            animation: dotPulse 1.5s ease-in-out infinite;
+            box-shadow: 0 0 20px var(--accent-orange);
+        }
+        
+        @keyframes dotPulse {
+            0%, 100% { transform: scale(1); opacity: 1; }
+            50% { transform: scale(1.4); opacity: 0.7; }
+        }
+        
+        .badge-text {
+            font-size: 0.8rem;
+            font-weight: 600;
+            letter-spacing: 0.15em;
+            text-transform: uppercase;
+            color: var(--accent-orange);
+        }
+        
+        .main-title {
+            font-size: clamp(3.5rem, 14vw, 9rem);
+            text-align: center;
+            line-height: 0.9;
+            letter-spacing: 0.02em;
+            margin-bottom: 1.5rem;
+            animation: fadeSlideUp 0.8s ease-out 0.2s both;
+        }
+        
+        .title-line-1 {
+            display: block;
+            background: linear-gradient(135deg, var(--accent-orange) 0%, var(--accent-gold) 50%, var(--accent-orange) 100%);
+            background-size: 200% auto;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            animation: shimmer 3s linear infinite;
+        }
+        
+        @keyframes shimmer {
+            to { background-position: 200% center; }
+        }
+        
+        .title-line-2 {
+            display: block;
+            color: var(--fg);
+        }
+        
+        .subtitle {
+            font-size: clamp(1rem, 2.5vw, 1.25rem);
+            color: var(--fg-muted);
+            text-align: center;
+            max-width: 600px;
+            line-height: 1.8;
+            margin-bottom: 2.5rem;
+            animation: fadeSlideUp 0.8s ease-out 0.4s both;
+        }
+        
+        .subtitle strong {
+            color: var(--fg);
+            font-weight: 600;
+        }
+        
+        .countdown-section {
+            margin-bottom: 2.5rem;
+            animation: fadeSlideUp 0.8s ease-out 0.6s both;
+        }
+        
+        .countdown-label {
+            text-align: center;
+            font-size: 0.8rem;
+            color: var(--fg-muted);
+            text-transform: uppercase;
+            letter-spacing: 0.25em;
+            margin-bottom: 1.25rem;
+        }
+        
+        .countdown-grid {
+            display: flex;
+            gap: 0.75rem;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        
+        .countdown-card {
+            background: var(--card-bg);
+            border: 1px solid var(--border-subtle);
+            border-radius: 16px;
+            padding: 1.25rem 1.5rem;
+            min-width: 90px;
+            text-align: center;
+            backdrop-filter: blur(20px);
+            transition: all 0.3s ease;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .countdown-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 2px;
+            background: linear-gradient(90deg, transparent, var(--accent-orange), transparent);
+            opacity: 0.6;
+        }
+        
+        .countdown-card:hover {
+            transform: translateY(-5px);
+            border-color: rgba(255, 87, 34, 0.4);
+            box-shadow: 0 20px 40px rgba(255, 87, 34, 0.15);
+        }
+        
+        .countdown-value {
+            font-family: 'Bebas Neue', sans-serif;
+            font-size: 2.75rem;
+            line-height: 1;
+            color: var(--fg);
+        }
+        
+        .countdown-unit {
+            font-size: 0.7rem;
+            color: var(--fg-muted);
+            text-transform: uppercase;
+            letter-spacing: 0.15em;
+            margin-top: 0.25rem;
+        }
+        
+        .features-row {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.875rem;
+            justify-content: center;
+            margin-bottom: 2.5rem;
+            animation: fadeSlideUp 0.8s ease-out 0.8s both;
+        }
+        
+        .feature-chip {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            padding: 0.75rem 1.25rem;
+            background: rgba(255, 255, 255, 0.03);
+            border: 1px solid var(--border-subtle);
+            border-radius: 12px;
+            font-size: 0.875rem;
+            color: var(--fg-muted);
+            transition: all 0.3s ease;
+        }
+        
+        .feature-chip:hover {
+            background: rgba(255, 255, 255, 0.06);
+            border-color: var(--accent-teal);
+            color: var(--fg);
+            transform: translateY(-2px);
+        }
+        
+        .feature-icon {
+            width: 18px;
+            height: 18px;
+            color: var(--accent-teal);
+        }
+        
+        .cta-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.875rem;
+            padding: 1.125rem 2.5rem;
+            background: linear-gradient(135deg, var(--accent-orange), #ff7043);
+            color: #fff;
+            font-weight: 600;
+            font-size: 1rem;
+            border: none;
+            border-radius: 14px;
+            cursor: pointer;
+            text-decoration: none;
+            position: relative;
+            overflow: hidden;
+            transition: all 0.3s ease;
+            animation: fadeSlideUp 0.8s ease-out 1s both;
+            box-shadow: 0 10px 40px rgba(255, 87, 34, 0.35);
+        }
+        
+        .cta-btn::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.25), transparent);
+            transition: left 0.6s ease;
+        }
+        
+        .cta-btn:hover::before {
+            left: 100%;
+        }
+        
+        .cta-btn:hover {
+            transform: translateY(-3px) scale(1.02);
+            box-shadow: 0 20px 50px rgba(255, 87, 34, 0.45);
+        }
+        
+        .cta-icon {
+            transition: transform 0.3s ease;
+        }
+        
+        .cta-btn:hover .cta-icon {
+            transform: translateX(5px);
+        }
+        
+        .contact-dev {
+            position: fixed;
+            bottom: 1.25rem;
+            left: 1.25rem;
+            z-index: 100;
+            animation: fadeSlideUp 0.8s ease-out 1.2s both;
+        }
+        
+        .contact-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            padding: 0.5rem 1rem;
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid var(--border-subtle);
+            border-radius: 8px;
+            color: var(--fg-muted);
+            font-size: 0.75rem;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            backdrop-filter: blur(10px);
+        }
+        
+        .contact-btn:hover {
+            background: rgba(255, 255, 255, 0.1);
+            border-color: rgba(255, 255, 255, 0.2);
+            color: var(--fg);
+        }
+        
+        .contact-icon {
+            width: 14px;
+            height: 14px;
+        }
+        
+        @keyframes fadeSlideDown {
+            from { opacity: 0; transform: translateY(-30px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        
+        @keyframes fadeSlideUp {
+            from { opacity: 0; transform: translateY(40px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        
+        @media (prefers-reduced-motion: reduce) {
+            *, *::before, *::after {
+                animation-duration: 0.01ms !important;
+                animation-iteration-count: 1 !important;
+                transition-duration: 0.01ms !important;
+            }
+        }
+        
+        @media (max-width: 640px) {
+            .countdown-grid { gap: 0.5rem; }
+            .countdown-card { min-width: 75px; padding: 1rem; }
+            .countdown-value { font-size: 2rem; }
+            .player-silhouette { opacity: 0.03; }
+            .cricket-img { opacity: 0.06; }
+        }
+    </style>
+</head>
+<body>
+    <!-- Background Layer -->
+    <div class="bg-layer">
+        <div class="bg-gradient"></div>
+        <div class="bg-pattern"></div>
+        
+        <!-- Background Cricket Images -->
+        <div class="bg-images">
+            <div class="cricket-img img-left"></div>
+            <div class="cricket-img img-right"></div>
+            <div class="cricket-img img-center"></div>
+        </div>
+        
+        <!-- Stadium Lights -->
+        <div class="stadium-lights">
+            <div class="light-spot light-1"></div>
+            <div class="light-spot light-2"></div>
+            <div class="light-spot light-3"></div>
+        </div>
+        
+        <!-- Light Beams -->
+        <div class="light-beams">
+            <div class="beam"></div>
+            <div class="beam"></div>
+            <div class="beam"></div>
+            <div class="beam"></div>
+        </div>
+        
+        <!-- Player Silhouettes -->
+        <div class="players-bg">
+            <svg class="player-silhouette player-left" viewBox="0 0 100 300" fill="currentColor" style="color: #ff5722;">
+                <ellipse cx="50" cy="30" rx="18" ry="20"/>
+                <path d="M50 50 L50 120 M50 60 L25 90 M50 60 L75 90 M50 120 L30 180 M50 120 L70 180"/>
+                <circle cx="85" cy="75" r="8" fill="none" stroke="currentColor" stroke-width="2"/>
+                <path d="M85 67 Q95 60 105 65" fill="none" stroke="currentColor" stroke-width="2"/>
+            </svg>
+            
+            <svg class="player-silhouette player-right" viewBox="0 0 100 300" fill="currentColor" style="color: #ffd700;">
+                <ellipse cx="50" cy="30" rx="18" ry="20"/>
+                <path d="M50 50 L50 120 M50 60 L25 90 M50 60 L75 90 M50 120 L30 180 M50 120 L70 180"/>
+                <path d="M15 80 L45 75 L50 60" fill="none" stroke="currentColor" stroke-width="8" stroke-linecap="round"/>
+            </svg>
+            
+            <svg class="player-silhouette player-center" viewBox="0 0 120 350" fill="currentColor" style="color: #00e5c7;">
+                <ellipse cx="60" cy="30" rx="20" ry="22"/>
+                <path d="M60 52 L60 130 M60 65 L30 100 M60 65 L90 100 M60 130 L35 200 M60 130 L85 200"/>
+                <rect x="45" y="200" width="30" height="3" rx="1"/>
+                <rect x="40" y="203" width="40" height="2" rx="1"/>
+            </svg>
+        </div>
+    </div>
+    
+    <!-- 3D Canvas -->
+    <div id="canvas-container"></div>
+    
+    <!-- Main Content -->
+    <div class="content">
+        <div class="status-badge">
+            <span class="badge-dot"></span>
+            <span class="badge-text">Site Under Maintenance</span>
+        </div>
+        
+<h1 class="main-title font-display">
+            <span class="title-line-1">TATA IPL LIVE</span>
+            <span class="title-line-2">STREAMING</span>
+        </h1>
+        
+        <p class="subtitle">
+            We are building something <strong>extraordinary</strong> for the next IPL season. 
+            Catch every match live with <strong>HD quality</strong> streaming and real-time updates.
+        </p>
+        
+        <div class="countdown-section">
+            <div class="countdown-label">Launching March 28, 2026 at 5:00 AM IST</div>
+            <div class="countdown-grid">
+                <div class="countdown-card">
+                    <div class="countdown-value" id="days">000</div>
+                    <div class="countdown-unit">Days</div>
+                </div>
+                <div class="countdown-card">
+                    <div class="countdown-value" id="hours">00</div>
+                    <div class="countdown-unit">Hours</div>
+                </div>
+                <div class="countdown-card">
+                    <div class="countdown-value" id="minutes">00</div>
+                    <div class="countdown-unit">Minutes</div>
+                </div>
+                <div class="countdown-card">
+                    <div class="countdown-value" id="seconds">00</div>
+                    <div class="countdown-unit">Seconds</div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="features-row">
+            <div class="feature-chip">
+                <svg class="feature-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <circle cx="12" cy="12" r="10"/>
+                    <polygon points="10 8 16 12 10 16 10 8"/>
+                </svg>
+                <span>All Matches Live</span>
+            </div>
+            <div class="feature-chip">
+                <svg class="feature-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <rect x="2" y="3" width="20" height="14" rx="2"/>
+                    <path d="M8 21h8M12 17v4"/>
+                </svg>
+                <span>HD Quality</span>
+            </div>
+            <div class="feature-chip">
+                <svg class="feature-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M12 2L2 7l10 5 10-5-10-5z"/>
+                    <path d="M2 17l10 5 10-5"/>
+                    <path d="M2 12l10 5 10-5"/>
+                </svg>
+                <span>Multi-language</span>
+            </div>
+            <div class="feature-chip">
+                <svg class="feature-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M22 12h-4l-3 9L9 3l-3 9H2"/>
+                </svg>
+                <span>Live Scores</span>
+            </div>
+        </div>
+        
+        <a href="https://whatsapp.com/channel/dreamlynetwork" class="cta-btn" target="_blank" rel="noopener">
+            <span>Join Our Channel</span>
+            <svg class="cta-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M5 12h14M12 5l7 7-7 7"/>
+            </svg>
+        </a>
+    </div>
+    
+    <!-- Contact Developer -->
+    <div class="contact-dev">
+        <a href="#" class="contact-btn">
+            <svg class="contact-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/>
+                <circle cx="12" cy="7" r="4"/>
+            </svg>
+            <span>Contact Developer</span>
+        </a>
+    </div>
+
+      <script type="module">
+        import * as THREE from 'three';
+        
+        // Initialize variables first
+        const container = document.getElementById('canvas-container');
+        const scene = new THREE.Scene();
+        const clock = new THREE.Clock();
+        
+        let mouseX = 0;
+        let mouseY = 0;
+        let targetX = 0;
+        let targetY = 0;
+        
+        const camera = new THREE.PerspectiveCamera(
+            60,
+            window.innerWidth / window.innerHeight,
+            0.1,
+            1000
+        );
+        camera.position.z = 20;
+        
+        const renderer = new THREE.WebGLRenderer({
+            antialias: true,
+            alpha: true
+        });
+        renderer.setSize(window.innerWidth, window.innerHeight);
+        renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
+        container.appendChild(renderer.domElement);
+        
+        // Create Cricket Ball
+        const ballGeometry = new THREE.SphereGeometry(3, 64, 64);
+        const ballMaterial = new THREE.MeshStandardMaterial({
+            color: 0xcc2222,
+            roughness: 0.5,
+            metalness: 0.1
+        });
+        const ball = new THREE.Mesh(ballGeometry, ballMaterial);
+        scene.add(ball);
+        
+        // Ball Seam
+        const seamPoints = [];
+        for (let i = 0; i <= 100; i++) {
+            const t = (i / 100) * Math.PI * 2;
+            const x = Math.sin(t) * 3;
+            const y = Math.cos(t * 2) * 1;
+            const z = Math.cos(t) * 3;
+            seamPoints.push(new THREE.Vector3(x, y, z));
+        }
+        
+        const seamCurve = new THREE.CatmullRomCurve3(seamPoints);
+        const seamGeometry = new THREE.TubeGeometry(seamCurve, 100, 0.12, 8, false);
+        const seamMaterial = new THREE.MeshStandardMaterial({
+            color: 0xffffff,
+            roughness: 0.3
+        });
+        const seam = new THREE.Mesh(seamGeometry, seamMaterial);
+        ball.add(seam);
+        
+        // Wireframe Sphere
+        const wireGeometry = new THREE.IcosahedronGeometry(5, 1);
+        const wireMaterial = new THREE.MeshBasicMaterial({
+            color: 0xff5722,
+            wireframe: true,
+            transparent: true,
+            opacity: 0.15
+        });
+        const wireframe = new THREE.Mesh(wireGeometry, wireMaterial);
+        scene.add(wireframe);
+        
+        // Orbital Rings
+        const ringGroup = new THREE.Group();
+        const ringColors = [0xff5722, 0xffd700, 0x00e5c7];
+        
+        for (let i = 0; i < 3; i++) {
+            const ringRadius = Math.max(0.1, 6 + i * 2);
+            const ringGeometry = new THREE.TorusGeometry(ringRadius, 0.04, 16, 100);
+            const ringMaterial = new THREE.MeshBasicMaterial({
+                color: ringColors[i],
+                transparent: true,
+                opacity: 0.5 - i * 0.12
+            });
+            const ring = new THREE.Mesh(ringGeometry, ringMaterial);
+            ring.rotation.x = Math.PI / 2 + (i * 0.4);
+            ring.rotation.y = i * 0.6;
+            ring.userData = { speed: 0.2 + i * 0.1, index: i };
+            ringGroup.add(ring);
+        }
+        scene.add(ringGroup);
+        
+        // Particles
+        const particleCount = 600;
+        const positions = new Float32Array(particleCount * 3);
+        const colors = new Float32Array(particleCount * 3);
+        
+        const colorPalette = [
+            new THREE.Color(0xff5722),
+            new THREE.Color(0xffd700),
+            new THREE.Color(0x00e5c7),
+            new THREE.Color(0xffffff)
+        ];
+        
+        for (let i = 0; i < particleCount; i++) {
+            const i3 = i * 3;
+            const radius = 12 + Math.random() * 35;
+            const theta = Math.random() * Math.PI * 2;
+            const phi = Math.acos(2 * Math.random() - 1);
+            
+            positions[i3] = radius * Math.sin(phi) * Math.cos(theta);
+            positions[i3 + 1] = radius * Math.sin(phi) * Math.sin(theta);
+            positions[i3 + 2] = radius * Math.cos(phi);
+            
+            const color = colorPalette[Math.floor(Math.random() * colorPalette.length)];
+            colors[i3] = color.r;
+            colors[i3 + 1] = color.g;
+            colors[i3 + 2] = color.b;
+        }
+        
+        const particlesGeometry = new THREE.BufferGeometry();
+        particlesGeometry.setAttribute('position', new THREE.BufferAttribute(positions, 3));
+        particlesGeometry.setAttribute('color', new THREE.BufferAttribute(colors, 3));
+        
+        const particlesMaterial = new THREE.PointsMaterial({
+            size: 0.12,
+            vertexColors: true,
+            transparent: true,
+            opacity: 0.7,
+            sizeAttenuation: true
+        });
+        
+        const particles = new THREE.Points(particlesGeometry, particlesMaterial);
+        scene.add(particles);
+        
+        // Floating Stumps
+        const stumpGroup = new THREE.Group();
+        const stumpMaterial = new THREE.MeshStandardMaterial({
+            color: 0xffd700,
+            roughness: 0.3,
+            metalness: 0.2,
+            emissive: 0xffd700,
+            emissiveIntensity: 0.1
+        });
+        
+        for (let i = 0; i < 3; i++) {
+            const stumpGeometry = new THREE.CylinderGeometry(0.08, 0.08, 2.5, 8);
+            const stump = new THREE.Mesh(stumpGeometry, stumpMaterial);
+            stump.position.x = (i - 1) * 0.35;
+            stumpGroup.add(stump);
+        }
+        
+        // Bails
+        const bailGeometry = new THREE.CylinderGeometry(0.06, 0.06, 0.7, 8);
+        const bail1 = new THREE.Mesh(bailGeometry, stumpMaterial);
+        bail1.rotation.z = Math.PI / 2;
+        bail1.position.set(-0.175, 1.25, 0);
+        stumpGroup.add(bail1);
+        
+        const bail2 = new THREE.Mesh(bailGeometry, stumpMaterial);
+        bail2.rotation.z = Math.PI / 2;
+        bail2.position.set(0.175, 1.25, 0);
+        stumpGroup.add(bail2);
+        
+        stumpGroup.position.set(-12, -5, -5);
+        stumpGroup.rotation.z = 0.1;
+        scene.add(stumpGroup);
+        
+        // Lighting
+        const ambientLight = new THREE.AmbientLight(0xffffff, 0.4);
+        scene.add(ambientLight);
+        
+        const mainLight = new THREE.DirectionalLight(0xffffff, 0.8);
+        mainLight.position.set(10, 10, 10);
+        scene.add(mainLight);
+        
+        const orangeLight = new THREE.PointLight(0xff5722, 2, 40);
+        orangeLight.position.set(12, 8, 8);
+        scene.add(orangeLight);
+        
+        const goldLight = new THREE.PointLight(0xffd700, 1.5, 35);
+        goldLight.position.set(-12, 5, 8);
+        scene.add(goldLight);
+        
+        const tealLight = new THREE.PointLight(0x00e5c7, 1, 30);
+        tealLight.position.set(0, -10, 10);
+        scene.add(tealLight);
+        
+        // Mouse interaction
+        document.addEventListener('mousemove', (event) => {
+            mouseX = (event.clientX / window.innerWidth) * 2 - 1;
+            mouseY = -(event.clientY / window.innerHeight) * 2 + 1;
+        });
+        
+        // Animation Loop
+        function animate() {
+            requestAnimationFrame(animate);
+            
+            const elapsed = clock.getElapsedTime();
+            
+            targetX += (mouseX - targetX) * 0.05;
+            targetY += (mouseY - targetY) * 0.05;
+            
+            ball.rotation.x = elapsed * 0.25 + targetY * 0.4;
+            ball.rotation.y = elapsed * 0.35 + targetX * 0.4;
+            
+            wireframe.rotation.x = elapsed * 0.08;
+            wireframe.rotation.y = elapsed * 0.12;
+            
+            ringGroup.children.forEach((ring) => {
+                ring.rotation.z = elapsed * ring.userData.speed;
+            });
+            
+            particles.rotation.y = elapsed * 0.025;
+            particles.rotation.x = Math.sin(elapsed * 0.08) * 0.08;
+            
+            stumpGroup.position.y = -5 + Math.sin(elapsed * 0.4) * 1.5;
+            stumpGroup.rotation.y = Math.sin(elapsed * 0.3) * 0.15;
+            
+            orangeLight.position.x = Math.sin(elapsed * 0.4) * 12;
+            orangeLight.position.y = 8 + Math.cos(elapsed * 0.3) * 3;
+            
+            goldLight.position.x = -12 + Math.cos(elapsed * 0.35) * 3;
+            goldLight.position.y = 5 + Math.sin(elapsed * 0.45) * 2;
+            
+            renderer.render(scene, camera);
+        }
+        
+        animate();
+        
+        // Resize Handler
+        window.addEventListener('resize', () => {
+            camera.aspect = window.innerWidth / window.innerHeight;
+            camera.updateProjectionMatrix();
+            renderer.setSize(window.innerWidth, window.innerHeight);
+        });
+        
+        // Countdown - March 28, 2026 at 5:00 AM IST (UTC+5:30)
+        const targetDate = new Date('2026-03-28T05:00:00+05:30').getTime();
+        
+        function updateCountdown() {
+            const now = new Date().getTime();
+            const diff = targetDate - now;
+            
+            if (diff <= 0) {
+                document.getElementById('days').textContent = '000';
+                document.getElementById('hours').textContent = '00';
+                document.getElementById('minutes').textContent = '00';
+                document.getElementById('seconds').textContent = '00';
+                return;
+            }
+            
+            const days = Math.floor(diff / (1000 * 60 * 60 * 24));
+            const hours = Math.floor((diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            const minutes = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
+            const seconds = Math.floor((diff % (1000 * 60)) / 1000);
+            
+            document.getElementById('days').textContent = String(days).padStart(3, '0');
+            document.getElementById('hours').textContent = String(hours).padStart(2, '0');
+            document.getElementById('minutes').textContent = String(minutes).padStart(2, '0');
+            document.getElementById('seconds').textContent = String(seconds).padStart(2, '0');
+        }
+        
+        updateCountdown();
+        setInterval(updateCountdown, 1000);
+    </script>
+</body>
+</html>
