@@ -660,101 +660,124 @@
     &copy; <span id="year"></span> SS1THD — Developed by Mukesh
 </footer>
 
-<!-- TELEGRAM POPUP -->
-<div class="tg-overlay" id="tg-overlay">
-    <div class="tg-popup" role="dialog" aria-label="Join Telegram Channel">
-        <button class="tg-popup-close" onclick="closeTelegramPopup()" aria-label="Close">✕</button>
-        
-        <div class="tg-icon-big">
-            <svg viewBox="0 0 24 24" fill="white"><path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm5.894 8.221l-1.97 9.28c-.145.658-.537.818-1.084.508l-3-2.21-1.447 1.394c-.16.16-.295.295-.605.295l.213-3.053 5.56-5.023c.242-.213-.054-.333-.373-.12l-6.871 4.326-2.962-.924c-.643-.204-.657-.643.136-.953l11.57-4.461c.537-.194 1.006.131.833.94z"/></svg>
-        </div>
-
-        <h2>Join Our Channel</h2>
-        <p>Get instant alerts for live matches, stream links, highlights, and exclusive cricket updates!</p>
-
-        <div class="tg-perks">
-            <div class="tg-perk"><div class="tg-perk-dot"></div>Live Match Alerts</div>
-            <div class="tg-perk"><div class="tg-perk-dot"></div>Stream Links</div>
-            <div class="tg-perk"><div class="tg-perk-dot"></div>Highlights</div>
-        </div>
-
-        <a href="https://t.me/+CXnOStBpTv43Mjc1" target="_blank" rel="noopener" class="tg-join-btn">
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="white"><path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm5.894 8.221l-1.97 9.28c-.145.658-.537.818-1.084.508l-3-2.21-1.447 1.394c-.16.16-.295.295-.605.295l.213-3.053 5.56-5.023c.242-.213-.054-.333-.373-.12l-6.871 4.326-2.962-.924c-.643-.204-.657-.643.136-.953l11.57-4.461c.537-.194 1.006.131.833.94z"/></svg>
-            Join @Dreamly Info
-        </a>
-        <button class="tg-skip" onclick="closeTelegramPopup()">Maybe later</button>
-    </div>
-</div>
-
 <script>
     document.addEventListener('DOMContentLoaded', () => {
         document.getElementById('year').textContent = new Date().getFullYear();
+    });
 
-        if (!localStorage.getItem('tg_popup_closed')) {
-            setTimeout(openTelegramPopup, 3000);
+    const wrapper   = document.getElementById('video-wrapper');
+    const fsBtn     = document.getElementById('fullscreen-btn');
+    const rotHint   = document.getElementById('rotate-hint');
+    const isMobile  = () => /Mobi|Android|iPhone|iPad|iPod/i.test(navigator.userAgent);
+    let fakeFsActive = false;
+    let hintTimer    = null;
+
+    /* ── helpers ── */
+    function isPortrait() {
+        if (screen.orientation) return screen.orientation.type.startsWith('portrait');
+        return window.innerHeight > window.innerWidth;
+    }
+
+    function lockLandscape() {
+        if (screen.orientation && screen.orientation.lock) {
+            screen.orientation.lock('landscape').catch(() => {});
         }
-    });
-
-    function openTelegramPopup() {
-        document.getElementById('tg-overlay').classList.remove('hidden');
     }
 
-    function closeTelegramPopup() {
-        document.getElementById('tg-overlay').classList.add('hidden');
-        localStorage.setItem('tg_popup_closed', '1');
+    function unlockOrientation() {
+        if (screen.orientation && screen.orientation.unlock) {
+            screen.orientation.unlock();
+        }
     }
 
-    function setQuality(q, btn) {
-        document.querySelectorAll('.quality-btn').forEach(b => b.classList.remove('active'));
-        btn.classList.add('active');
-        const labels = {240:'Low · 240p',360:'Standard · 360p',480:'SD · 480p',720:'HD · 720p',1080:'Full HD · 1080p'};
-        document.getElementById('quality-note').textContent = (labels[q] || '') + ' selected';
+    function showRotateHint() {
+        rotHint.classList.add('show');
+        clearTimeout(hintTimer);
+        hintTimer = setTimeout(() => rotHint.classList.remove('show'), 2500);
     }
 
-    document.getElementById('tg-overlay').addEventListener('click', function(e) {
-        if (e.target === this) closeTelegramPopup();
-    });
+    /* ── enter fake fullscreen (mobile fallback) ── */
+    function enterFakeFs() {
+        fakeFsActive = true;
+        wrapper.classList.add('fake-fs');
+        fsBtn.classList.add('is-fullscreen');
+        fsBtn.title = 'Exit Fullscreen';
+        fsBtn.setAttribute('aria-label', 'Exit fullscreen');
+        document.body.style.overflow = 'hidden';
 
-    /* ===== FULLSCREEN ===== */
-    const wrapper = document.getElementById('video-wrapper');
-    const fsBtn   = document.getElementById('fullscreen-btn');
+        // Try to lock landscape; show hint if still portrait after a moment
+        lockLandscape();
+        setTimeout(() => {
+            if (isPortrait()) showRotateHint();
+        }, 400);
+    }
 
+    /* ── exit fake fullscreen ── */
+    function exitFakeFs() {
+        fakeFsActive = false;
+        wrapper.classList.remove('fake-fs');
+        fsBtn.classList.remove('is-fullscreen');
+        fsBtn.title = 'Fullscreen';
+        fsBtn.setAttribute('aria-label', 'Toggle fullscreen');
+        document.body.style.overflow = '';
+        unlockOrientation();
+        rotHint.classList.remove('show');
+        clearTimeout(hintTimer);
+    }
+
+    /* ── main toggle ── */
     function toggleFullscreen() {
-        const isFs = !!(
-            document.fullscreenElement ||
-            document.webkitFullscreenElement ||
-            document.mozFullScreenElement ||
-            document.msFullscreenElement
-        );
+        const nativeFsEl = document.fullscreenElement ||
+                           document.webkitFullscreenElement ||
+                           document.mozFullScreenElement ||
+                           document.msFullscreenElement;
 
-        if (!isFs) {
-            // Enter fullscreen on the wrapper div
+        if (nativeFsEl) {
+            /* exit native fullscreen */
+            (document.exitFullscreen ||
+             document.webkitExitFullscreen ||
+             document.mozCancelFullScreen ||
+             document.msExitFullscreen).call(document);
+        } else if (fakeFsActive) {
+            exitFakeFs();
+        } else {
+            /* try native fullscreen first */
             const req = wrapper.requestFullscreen ||
                         wrapper.webkitRequestFullscreen ||
                         wrapper.mozRequestFullScreen ||
                         wrapper.msRequestFullscreen;
-            if (req) req.call(wrapper);
-        } else {
-            // Exit fullscreen
-            const exit = document.exitFullscreen ||
-                         document.webkitExitFullscreen ||
-                         document.mozCancelFullScreen ||
-                         document.msExitFullscreen;
-            if (exit) exit.call(document);
+
+            if (req) {
+                req.call(wrapper).then(() => {
+                    /* native FS granted — also lock landscape on mobile */
+                    if (isMobile()) lockLandscape();
+                }).catch(() => {
+                    /* native FS blocked (common on mobile) — use fake FS */
+                    enterFakeFs();
+                });
+            } else {
+                /* no native FS API at all */
+                enterFakeFs();
+            }
         }
     }
 
-    // Sync button icon state with actual fullscreen events
+    /* ── sync button state with native FS changes ── */
     function onFsChange() {
-        const isFs = !!(
-            document.fullscreenElement ||
-            document.webkitFullscreenElement ||
-            document.mozFullScreenElement ||
-            document.msFullscreenElement
-        );
-        fsBtn.classList.toggle('is-fullscreen', isFs);
-        fsBtn.title = isFs ? 'Exit Fullscreen' : 'Fullscreen';
-        fsBtn.setAttribute('aria-label', isFs ? 'Exit fullscreen' : 'Toggle fullscreen');
+        const isFs = !!(document.fullscreenElement ||
+                        document.webkitFullscreenElement ||
+                        document.mozFullScreenElement ||
+                        document.msFullscreenElement);
+
+        fsBtn.classList.toggle('is-fullscreen', isFs || fakeFsActive);
+        fsBtn.title = (isFs || fakeFsActive) ? 'Exit Fullscreen' : 'Fullscreen';
+        fsBtn.setAttribute('aria-label', (isFs || fakeFsActive) ? 'Exit fullscreen' : 'Toggle fullscreen');
+
+        if (isFs && isMobile()) {
+            lockLandscape();
+            setTimeout(() => { if (isPortrait()) showRotateHint(); }, 400);
+        }
+        if (!isFs) unlockOrientation();
     }
 
     document.addEventListener('fullscreenchange',       onFsChange);
@@ -762,11 +785,26 @@
     document.addEventListener('mozfullscreenchange',    onFsChange);
     document.addEventListener('MSFullscreenChange',     onFsChange);
 
-    // Also allow double-click on the video area to toggle fullscreen
+    /* ── double-tap to toggle ── */
     wrapper.addEventListener('dblclick', function(e) {
-        // Don't trigger if clicking the button itself
         if (!e.target.closest('.fullscreen-btn')) toggleFullscreen();
     });
+
+    /* ── hide rotate hint when user actually rotates ── */
+    window.addEventListener('orientationchange', () => {
+        if (!isPortrait()) rotHint.classList.remove('show');
+    });
+    screen.orientation && screen.orientation.addEventListener('change', () => {
+        if (!isPortrait()) rotHint.classList.remove('show');
+    });
+
+    /* ── exit fake FS on back button (Android) ── */
+    window.addEventListener('popstate', () => {
+        if (fakeFsActive) exitFakeFs();
+    });
+    if (fakeFsActive === false) history.pushState(null, '');
 </script>
+
+
 </body>
 </html>
